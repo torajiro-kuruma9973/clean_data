@@ -1,0 +1,3588 @@
+{
+    "total_projects_num": 378,
+    "total_study_num": 597,
+    "study_info": {
+        "05-03-2002-NA-PETCT whole-body PSMA-40379": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-02-2003-NA-PETCT whole-body PSMA-52679": {
+            "CT_slice_num": 308,
+            "PET_slice_num": 462,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-20-2002-NA-PETCT whole-body PSMA-86506": {
+            "CT_slice_num": 309,
+            "PET_slice_num": 464,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-14-2000-NA-PETCT whole-body PSMA-77322": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-1999-NA-PETCT whole-body PSMA-89953": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-27-1997-NA-PETCT whole-body PSMA-52038": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-28-1999-NA-PETCT whole-body PSMA-60477": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-01-2002-NA-PETCT whole-body PSMA-09934": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-11-1998-NA-PETCT whole-body PSMA-19931": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-22-1999-NA-PETCT whole-body PSMA-27045": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "11-23-2000-NA-PETCT whole-body PSMA-06662": {
+            "CT_slice_num": 292,
+            "PET_slice_num": 438,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-01-2003-NA-PETCT whole-body PSMA-60374": {
+            "CT_slice_num": 296,
+            "PET_slice_num": 444,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-14-2000-NA-PETCT whole-body PSMA-44382": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-14-2001-NA-PETCT whole-body PSMA-66020": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-11-2002-NA-PETCT whole-body PSMA-79365": {
+            "CT_slice_num": 264,
+            "PET_slice_num": 395,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-16-2002-NA-PETCT whole-body PSMA-15680": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 135,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-02-2002-NA-PETCT whole-body PSMA-39650": {
+            "CT_slice_num": 303,
+            "PET_slice_num": 454,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-20-1997-NA-PETCT whole-body PSMA-54633": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-26-1997-NA-PETCT whole-body PSMA-70279": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-25-2002-NA-PETCT whole-body PSMA-76348": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-05-2003-NA-PETCT whole-body PSMA-07504": {
+            "CT_slice_num": 285,
+            "PET_slice_num": 427,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-01-2001-NA-PETCT whole-body PSMA-60723": {
+            "CT_slice_num": 289,
+            "PET_slice_num": 433,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-23-2000-NA-PETCT whole-body PSMA-51493": {
+            "CT_slice_num": 253,
+            "PET_slice_num": 379,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-12-1999-NA-PETCT whole-body PSMA-17832": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-11-1998-NA-PETCT whole-body PSMA-96700": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-06-2002-NA-PETCT whole-body PSMA-12784": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-02-2002-NA-PETCT whole-body PSMA-40922": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-30-2000-NA-PETCT whole-body PSMA-49427": {
+            "CT_slice_num": 296,
+            "PET_slice_num": 444,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-16-1999-NA-PETCT whole-body PSMA-41215": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-04-2000-NA-PETCT whole-body PSMA-72070": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-05-1999-NA-PETCT whole-body PSMA-08263": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "07-24-1998-NA-PETCT whole-body PSMA-11747": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-21-2004-NA-PETCT whole-body PSMA-59148": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-29-2004-NA-PETCT whole-body PSMA-16305": {
+            "CT_slice_num": 257,
+            "PET_slice_num": 385,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-19-2003-NA-PETCT whole-body PSMA-31723": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-09-2001-NA-PETCT whole-body PSMA-84044": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-12-1998-NA-PETCT whole-body PSMA-63064": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-25-1999-NA-PETCT whole-body PSMA-06430": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-21-2001-NA-PETCT whole-body PSMA-85883": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-27-2002-NA-PETCT whole-body PSMA-67604": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-26-2000-NA-PETCT whole-body PSMA-07066": {
+            "CT_slice_num": 249,
+            "PET_slice_num": 373,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-17-2003-NA-PETCT whole-body PSMA-97373": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-13-2003-NA-PETCT whole-body PSMA-21917": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-06-2000-NA-PETCT whole-body PSMA-53604": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-10-2002-NA-PETCT whole-body PSMA-18075": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-04-2001-NA-PETCT whole-body PSMA-00228": {
+            "CT_slice_num": 230,
+            "PET_slice_num": 344,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-21-2000-NA-PETCT whole-body PSMA-53143": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-07-1999-NA-PETCT whole-body PSMA-71943": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-01-2000-NA-PETCT whole-body PSMA-35353": {
+            "CT_slice_num": 448,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-26-2003-NA-PETCT whole-body PSMA-84859": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-16-2002-NA-PETCT whole-body PSMA-94345": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-15-1998-NA-PETCT whole-body PSMA-67269": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-15-2003-NA-PETCT whole-body PSMA-90102": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-11-2002-NA-PETCT whole-body PSMA-69386": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-03-2003-NA-PETCT whole-body PSMA-37251": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-11-2002-NA-PETCT whole-body PSMA-08799": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-01-2002-NA-PETCT whole-body PSMA-33539": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-30-2003-NA-PETCT whole-body PSMA-17759": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-25-1999-NA-PETCT whole-body PSMA-30983": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-13-1998-NA-PETCT whole-body PSMA-08465": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-14-1997-NA-PETCT whole-body PSMA-34377": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-03-2003-NA-PETCT whole-body PSMA-31671": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-16-2002-NA-PETCT whole-body PSMA-49612": {
+            "CT_slice_num": 262,
+            "PET_slice_num": 393,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-29-2003-NA-PETCT whole-body PSMA-38960": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-19-2000-NA-PETCT whole-body PSMA-65511": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-21-2003-NA-PETCT whole-body PSMA-87471": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-09-2003-NA-PETCT whole-body PSMA-91193": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-02-2002-NA-PETCT whole-body PSMA-11400": {
+            "CT_slice_num": 258,
+            "PET_slice_num": 387,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-24-2002-NA-PETCT whole-body PSMA-15908": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-30-2001-NA-PETCT whole-body PSMA-43037": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-12-2002-NA-PETCT whole-body PSMA-46403": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-17-1998-NA-PETCT whole-body PSMA-96903": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "09-27-2002-NA-PETCT whole-body PSMA-81476": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-09-1999-NA-PETCT whole-body PSMA-38033": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-05-2003-NA-PETCT whole-body PSMA-46527": {
+            "CT_slice_num": 311,
+            "PET_slice_num": 466,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-07-2001-NA-PETCT whole-body PSMA-46453": {
+            "CT_slice_num": 295,
+            "PET_slice_num": 442,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-19-1998-NA-PETCT whole-body PSMA-74344": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-16-1997-NA-PETCT whole-body PSMA-82234": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-06-2005-NA-PETCT whole-body PSMA-56170": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-09-2005-NA-PETCT whole-body PSMA-88285": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-01-2000-NA-PETCT whole-body PSMA-09432": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-15-1999-NA-PETCT whole-body PSMA-99456": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-18-1999-NA-PETCT whole-body PSMA-46458": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-17-1997-NA-PETCT whole-body PSMA-23279": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-25-2000-NA-PETCT whole-body PSMA-30927": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "11-25-1997-NA-PETCT whole-body PSMA-92070": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "02-16-2000-NA-PETCT whole-body PSMA-27913": {
+            "CT_slice_num": 433,
+            "PET_slice_num": 433,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-30-2003-NA-PETCT whole-body PSMA-41727": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-06-2002-NA-PETCT whole-body PSMA-69274": {
+            "CT_slice_num": 301,
+            "PET_slice_num": 452,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-26-1999-NA-PETCT whole-body PSMA-74460": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-20-1998-NA-PETCT whole-body PSMA-27790": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-05-2000-NA-PETCT whole-body PSMA-69698": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-08-2002-NA-PETCT whole-body PSMA-86981": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-20-2000-NA-PETCT whole-body PSMA-72056": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "12-12-2000-NA-PETCT whole-body PSMA-87681": {
+            "CT_slice_num": 261,
+            "PET_slice_num": 391,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-14-2000-NA-PETCT whole-body PSMA-53558": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-22-2003-NA-PETCT whole-body PSMA-60636": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-11-2002-NA-PETCT whole-body PSMA-18958": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-14-2002-NA-PETCT whole-body PSMA-04773": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-04-2004-NA-PETCT whole-body PSMA-86983": {
+            "CT_slice_num": 251,
+            "PET_slice_num": 377,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-16-2004-NA-PETCT whole-body PSMA-23995": {
+            "CT_slice_num": 255,
+            "PET_slice_num": 383,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-27-2002-NA-PETCT whole-body PSMA-70554": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-06-2002-NA-PETCT whole-body PSMA-06598": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-03-2002-NA-PETCT whole-body PSMA-47273": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-13-2002-NA-PETCT whole-body PSMA-35134": {
+            "CT_slice_num": 296,
+            "PET_slice_num": 444,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-29-1999-NA-PETCT whole-body PSMA-90640": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-05-2000-NA-PETCT whole-body PSMA-94537": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-16-1999-NA-PETCT whole-body PSMA-56686": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-13-1998-NA-PETCT whole-body PSMA-77898": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-14-1998-NA-PETCT whole-body PSMA-56753": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-10-1999-NA-PETCT whole-body PSMA-55795": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-16-1997-NA-PETCT whole-body PSMA-67655": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-06-2003-NA-PETCT whole-body PSMA-52309": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-21-2001-NA-PETCT whole-body PSMA-95505": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-16-1999-NA-PETCT whole-body PSMA-00316": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-06-1998-NA-PETCT whole-body PSMA-23627": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-26-2000-NA-PETCT whole-body PSMA-89212": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-30-2003-NA-PETCT whole-body PSMA-70912": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-06-2001-NA-PETCT whole-body PSMA-40501": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-26-2000-NA-PETCT whole-body PSMA-74598": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-29-1999-NA-PETCT whole-body PSMA-38225": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-14-2000-NA-PETCT whole-body PSMA-06172": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-12-2000-NA-PETCT whole-body PSMA-82746": {
+            "CT_slice_num": 250,
+            "PET_slice_num": 375,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-13-2001-NA-PETCT whole-body PSMA-13751": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-26-1997-NA-PETCT whole-body PSMA-95797": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-13-2001-NA-PETCT whole-body PSMA-94743": {
+            "CT_slice_num": 299,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-24-2000-NA-PETCT whole-body PSMA-79197": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-19-2003-NA-PETCT whole-body PSMA-23020": {
+            "CT_slice_num": 301,
+            "PET_slice_num": 452,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-20-2002-NA-PETCT whole-body PSMA-32747": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-24-2001-NA-PETCT whole-body PSMA-54108": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-19-2005-NA-PETCT whole-body PSMA-03127": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-25-2005-NA-PETCT whole-body PSMA-30289": {
+            "CT_slice_num": 258,
+            "PET_slice_num": 387,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-30-2003-NA-PETCT whole-body PSMA-49399": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-23-2002-NA-PETCT whole-body PSMA-99135": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-12-1997-NA-PETCT whole-body PSMA-31465": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-19-1999-NA-PETCT whole-body PSMA-19300": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-05-1998-NA-PETCT whole-body PSMA-28057": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 189,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-07-2000-NA-PETCT whole-body PSMA-20889": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-20-1998-NA-PETCT whole-body PSMA-17603": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-12-2000-NA-PETCT whole-body PSMA-92003": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "06-04-1999-NA-PETCT whole-body PSMA-93562": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-28-2001-NA-PETCT whole-body PSMA-16478": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-09-1999-NA-PETCT whole-body PSMA-53699": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-02-2003-NA-PETCT whole-body PSMA-64520": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-04-2002-NA-PETCT whole-body PSMA-33584": {
+            "CT_slice_num": 288,
+            "PET_slice_num": 431,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-26-2002-NA-PETCT whole-body PSMA-30663": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-06-1999-NA-PETCT whole-body PSMA-79386": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-06-2003-NA-PETCT whole-body PSMA-32259": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-10-1998-NA-PETCT whole-body PSMA-80364": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-03-2003-NA-PETCT whole-body PSMA-55298": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-04-2001-NA-PETCT whole-body PSMA-29654": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "11-10-1998-NA-PETCT whole-body PSMA-76801": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "01-01-2003-NA-PETCT whole-body PSMA-88104": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-15-2001-NA-PETCT whole-body PSMA-22756": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-07-2003-NA-PETCT whole-body PSMA-76240": {
+            "CT_slice_num": 297,
+            "PET_slice_num": 227,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "07-30-1998-NA-PETCT whole-body PSMA-26704": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-19-2001-NA-PETCT whole-body PSMA-15634": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "03-16-2001-NA-PETCT whole-body PSMA-75073": {
+            "CT_slice_num": 288,
+            "PET_slice_num": 431,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-05-2001-NA-PETCT whole-body PSMA-53735": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-30-1997-NA-PETCT whole-body PSMA-83066": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-07-2000-NA-PETCT whole-body PSMA-03348": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-17-2002-NA-PETCT whole-body PSMA-95163": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-14-1997-NA-PETCT whole-body PSMA-40030": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-25-2002-NA-PETCT whole-body PSMA-02637": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "03-12-2002-NA-PETCT whole-body PSMA-95052": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-29-2000-NA-PETCT whole-body PSMA-14734": {
+            "CT_slice_num": 300,
+            "PET_slice_num": 450,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-28-2004-NA-PETCT whole-body PSMA-75504": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-2003-NA-PETCT whole-body PSMA-31012": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-17-1998-NA-PETCT whole-body PSMA-50968": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-27-1998-NA-PETCT whole-body PSMA-83278": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "12-03-1997-NA-PETCT whole-body PSMA-06028": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-18-1998-NA-PETCT whole-body PSMA-99773": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-09-2000-NA-PETCT whole-body PSMA-52221": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-10-1998-NA-PETCT whole-body PSMA-85154": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-08-2002-NA-PETCT whole-body PSMA-74959": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-27-2002-NA-PETCT whole-body PSMA-37960": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-06-2005-NA-PETCT whole-body PSMA-50890": {
+            "CT_slice_num": 254,
+            "PET_slice_num": 381,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-25-2003-NA-PETCT whole-body PSMA-89825": {
+            "CT_slice_num": 289,
+            "PET_slice_num": 433,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-08-2004-NA-PETCT whole-body PSMA-28933": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-15-2002-NA-PETCT whole-body PSMA-33294": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-28-1998-NA-PETCT whole-body PSMA-17755": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-04-2002-NA-PETCT whole-body PSMA-62939": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-10-2003-NA-PETCT whole-body PSMA-57067": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-11-2003-NA-PETCT whole-body PSMA-87384": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-07-2001-NA-PETCT whole-body PSMA-51773": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-19-2000-NA-PETCT whole-body PSMA-51525": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-27-1999-NA-PETCT whole-body PSMA-85295": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-29-1997-NA-PETCT whole-body PSMA-37898": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-11-1997-NA-PETCT whole-body PSMA-84450": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-21-1998-NA-PETCT whole-body PSMA-37458": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-30-1998-NA-PETCT whole-body PSMA-39502": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "12-28-1999-NA-PETCT whole-body PSMA-03077": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-30-2003-NA-PETCT whole-body PSMA-86959": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-16-1998-NA-PETCT whole-body PSMA-17394": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-23-2003-NA-PETCT whole-body PSMA-27864": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "04-11-2001-NA-PETCT whole-body PSMA-94451": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-16-2000-NA-PETCT whole-body PSMA-74624": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-04-2000-NA-PETCT whole-body PSMA-70755": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-19-2003-NA-PETCT whole-body PSMA-25070": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-05-2004-NA-PETCT whole-body PSMA-53214": {
+            "CT_slice_num": 300,
+            "PET_slice_num": 450,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-26-2003-NA-PETCT whole-body PSMA-52100": {
+            "CT_slice_num": 315,
+            "PET_slice_num": 472,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-17-1997-NA-PETCT whole-body PSMA-25982": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-27-1997-NA-PETCT whole-body PSMA-59494": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-06-1998-NA-PETCT whole-body PSMA-09399": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-11-2002-NA-PETCT whole-body PSMA-26477": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-02-2002-NA-PETCT whole-body PSMA-06501": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-29-2000-NA-PETCT whole-body PSMA-00921": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-22-2001-NA-PETCT whole-body PSMA-02471": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-26-2001-NA-PETCT whole-body PSMA-98145": {
+            "CT_slice_num": 264,
+            "PET_slice_num": 395,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-16-2000-NA-PETCT whole-body PSMA-77887": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-18-2003-NA-PETCT whole-body PSMA-93765": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-06-1999-NA-PETCT whole-body PSMA-85399": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-12-1998-NA-PETCT whole-body PSMA-17228": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-05-1999-NA-PETCT whole-body PSMA-28138": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-08-2001-NA-PETCT whole-body PSMA-76599": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-23-2001-NA-PETCT whole-body PSMA-91074": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-28-2003-NA-PETCT whole-body PSMA-00608": {
+            "CT_slice_num": 255,
+            "PET_slice_num": 383,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-22-2003-NA-PETCT whole-body PSMA-36224": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-16-1999-NA-PETCT whole-body PSMA-78159": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-09-2003-NA-PETCT whole-body PSMA-01049": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "04-22-1999-NA-PETCT whole-body PSMA-12539": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-30-1998-NA-PETCT whole-body PSMA-13436": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-04-2002-NA-PETCT whole-body PSMA-01147": {
+            "CT_slice_num": 251,
+            "PET_slice_num": 377,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-03-2001-NA-PETCT whole-body PSMA-59168": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-2002-NA-PETCT whole-body PSMA-45074": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-19-2002-NA-PETCT whole-body PSMA-68491": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-19-2001-NA-PETCT whole-body PSMA-36377": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-22-1997-NA-PETCT whole-body PSMA-84347": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-26-1997-NA-PETCT whole-body PSMA-55518": {
+            "CT_slice_num": 524,
+            "PET_slice_num": 315,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-23-2000-NA-PETCT whole-body PSMA-01332": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-06-1999-NA-PETCT whole-body PSMA-66587": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-08-1998-NA-PETCT whole-body PSMA-54109": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "12-29-1997-NA-PETCT whole-body PSMA-48265": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-20-2002-NA-PETCT whole-body PSMA-97217": {
+            "CT_slice_num": 339,
+            "PET_slice_num": 508,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-05-2001-NA-PETCT whole-body PSMA-09888": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-17-1999-NA-PETCT whole-body PSMA-29710": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-21-2000-NA-PETCT whole-body PSMA-24904": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-31-2002-NA-PETCT whole-body PSMA-85128": {
+            "CT_slice_num": 191,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-10-2002-NA-PETCT whole-body PSMA-66662": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-26-1997-NA-PETCT whole-body PSMA-03065": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-24-1997-NA-PETCT whole-body PSMA-26393": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "06-22-1999-NA-PETCT whole-body PSMA-13336": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "08-14-1997-NA-PETCT whole-body PSMA-24934": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-10-1997-NA-PETCT whole-body PSMA-78615": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-04-2003-NA-PETCT whole-body PSMA-09966": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "02-09-2001-NA-PETCT whole-body PSMA-42716": {
+            "CT_slice_num": 299,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-19-2002-NA-PETCT whole-body PSMA-04630": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-27-2005-NA-PETCT whole-body PSMA-71066": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-15-2004-NA-PETCT whole-body PSMA-77153": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-05-1998-NA-PETCT whole-body PSMA-66475": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-25-2001-NA-PETCT whole-body PSMA-73980": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-20-2000-NA-PETCT whole-body PSMA-69040": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-06-2005-NA-PETCT whole-body PSMA-78008": {
+            "CT_slice_num": 236,
+            "PET_slice_num": 354,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-08-2004-NA-PETCT whole-body PSMA-79310": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-12-2001-NA-PETCT whole-body PSMA-61840": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-26-1999-NA-PETCT whole-body PSMA-88606": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "03-25-2003-NA-PETCT whole-body PSMA-46612": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-26-1997-NA-PETCT whole-body PSMA-54011": {
+            "CT_slice_num": 266,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-02-2005-NA-PETCT whole-body PSMA-79201": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-13-2004-NA-PETCT whole-body PSMA-18535": {
+            "CT_slice_num": 251,
+            "PET_slice_num": 377,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-27-1997-NA-PETCT whole-body PSMA-25278": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-09-2001-NA-PETCT whole-body PSMA-64030": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-24-2000-NA-PETCT whole-body PSMA-28597": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-19-1998-NA-PETCT whole-body PSMA-82612": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "04-09-1998-NA-PETCT whole-body PSMA-32698": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-20-1997-NA-PETCT whole-body PSMA-11354": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-08-2003-NA-PETCT whole-body PSMA-65847": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-09-2004-NA-PETCT whole-body PSMA-44413": {
+            "CT_slice_num": 245,
+            "PET_slice_num": 367,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-01-2003-NA-PETCT whole-body PSMA-23275": {
+            "CT_slice_num": 263,
+            "PET_slice_num": 395,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-25-2002-NA-PETCT whole-body PSMA-25780": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-23-2002-NA-PETCT whole-body PSMA-35568": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "06-25-2002-NA-PETCT whole-body PSMA-65769": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-24-2002-NA-PETCT whole-body PSMA-26112": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "10-12-2001-NA-PETCT whole-body PSMA-25683": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-28-2000-NA-PETCT whole-body PSMA-61643": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-22-2000-NA-PETCT whole-body PSMA-57275": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-24-2003-NA-PETCT whole-body PSMA-71606": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-11-2003-NA-PETCT whole-body PSMA-37514": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-31-2001-NA-PETCT whole-body PSMA-08300": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-09-2003-NA-PETCT whole-body PSMA-48876": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-12-2000-NA-PETCT whole-body PSMA-16264": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-03-2003-NA-PETCT whole-body PSMA-69734": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-03-2001-NA-PETCT whole-body PSMA-51680": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-21-2000-NA-PETCT whole-body PSMA-68952": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-10-2001-NA-PETCT whole-body PSMA-95720": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-02-2001-NA-PETCT whole-body PSMA-77482": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-14-2004-NA-PETCT whole-body PSMA-02106": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-31-2003-NA-PETCT whole-body PSMA-98327": {
+            "CT_slice_num": 288,
+            "PET_slice_num": 431,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-16-1998-NA-PETCT whole-body PSMA-87047": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-09-1999-NA-PETCT whole-body PSMA-09529": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "03-02-2000-NA-PETCT whole-body PSMA-76511": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-22-2001-NA-PETCT whole-body PSMA-32133": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-02-2002-NA-PETCT whole-body PSMA-71496": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-22-1998-NA-PETCT whole-body PSMA-69841": {
+            "CT_slice_num": 329,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-14-1998-NA-PETCT whole-body PSMA-90901": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-22-1997-NA-PETCT whole-body PSMA-00561": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-09-2001-NA-PETCT whole-body PSMA-65497": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-18-2001-NA-PETCT whole-body PSMA-65510": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-24-2003-NA-PETCT whole-body PSMA-44290": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-06-2000-NA-PETCT whole-body PSMA-85330": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-24-1999-NA-PETCT whole-body PSMA-92631": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-03-2002-NA-PETCT whole-body PSMA-21786": {
+            "CT_slice_num": 254,
+            "PET_slice_num": 381,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-03-2002-NA-PETCT whole-body PSMA-17024": {
+            "CT_slice_num": 257,
+            "PET_slice_num": 385,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-04-2004-NA-PETCT whole-body PSMA-41850": {
+            "CT_slice_num": 244,
+            "PET_slice_num": 433,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-09-2003-NA-PETCT whole-body PSMA-81920": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-15-2002-NA-PETCT whole-body PSMA-25390": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-11-2002-NA-PETCT whole-body PSMA-35688": {
+            "CT_slice_num": 296,
+            "PET_slice_num": 444,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-15-2003-NA-PETCT whole-body PSMA-32455": {
+            "CT_slice_num": 258,
+            "PET_slice_num": 387,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-15-2003-NA-PETCT whole-body PSMA-87914": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "02-17-1999-NA-PETCT whole-body PSMA-72960": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "04-16-2003-NA-PETCT whole-body PSMA-36454": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "04-23-1998-NA-PETCT whole-body PSMA-64317": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-24-2002-NA-PETCT whole-body PSMA-76539": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "08-04-1998-NA-PETCT whole-body PSMA-66649": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "02-10-2004-NA-PETCT whole-body PSMA-24532": {
+            "CT_slice_num": 250,
+            "PET_slice_num": 375,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-02-2004-NA-PETCT whole-body PSMA-10492": {
+            "CT_slice_num": 236,
+            "PET_slice_num": 354,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-02-2002-NA-PETCT whole-body PSMA-46123": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-15-1997-NA-PETCT whole-body PSMA-58469": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-21-2003-NA-PETCT whole-body PSMA-08801": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-05-1998-NA-PETCT whole-body PSMA-38908": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-23-2003-NA-PETCT whole-body PSMA-28824": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-26-2003-NA-PETCT whole-body PSMA-86850": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-26-2002-NA-PETCT whole-body PSMA-63565": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-29-2002-NA-PETCT whole-body PSMA-90809": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-26-2001-NA-PETCT whole-body PSMA-04343": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-18-2003-NA-PETCT whole-body PSMA-63633": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-01-2002-NA-PETCT whole-body PSMA-21061": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-04-2002-NA-PETCT whole-body PSMA-26895": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-20-2002-NA-PETCT whole-body PSMA-34494": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-11-1999-NA-PETCT whole-body PSMA-47705": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-22-2003-NA-PETCT whole-body PSMA-43962": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-18-1999-NA-PETCT whole-body PSMA-12748": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "12-22-1999-NA-PETCT whole-body PSMA-04164": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-23-2000-NA-PETCT whole-body PSMA-09070": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-30-2000-NA-PETCT whole-body PSMA-94789": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-11-2003-NA-PETCT whole-body PSMA-48183": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-05-2001-NA-PETCT whole-body PSMA-61715": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-03-2001-NA-PETCT whole-body PSMA-64194": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-21-1997-NA-PETCT whole-body PSMA-47899": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-2003-NA-PETCT whole-body PSMA-06860": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-12-2002-NA-PETCT whole-body PSMA-44642": {
+            "CT_slice_num": 250,
+            "PET_slice_num": 375,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-02-2002-NA-PETCT whole-body PSMA-46198": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-27-2002-NA-PETCT whole-body PSMA-80741": {
+            "CT_slice_num": 193,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-01-2002-NA-PETCT whole-body PSMA-02764": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-09-2001-NA-PETCT whole-body PSMA-55562": {
+            "CT_slice_num": 299,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-11-2000-NA-PETCT whole-body PSMA-25899": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-12-2002-NA-PETCT whole-body PSMA-64897": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-17-1998-NA-PETCT whole-body PSMA-03986": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-31-2001-NA-PETCT whole-body PSMA-02817": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 420,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "04-20-1999-NA-PETCT whole-body PSMA-35028": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "05-16-2001-NA-PETCT whole-body PSMA-37725": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-11-1998-NA-PETCT whole-body PSMA-20018": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-31-1999-NA-PETCT whole-body PSMA-46384": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-06-1999-NA-PETCT whole-body PSMA-25466": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "02-11-2004-NA-PETCT whole-body PSMA-46045": {
+            "CT_slice_num": 280,
+            "PET_slice_num": 419,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-08-2004-NA-PETCT whole-body PSMA-64000": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-27-2000-NA-PETCT whole-body PSMA-39038": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-14-1998-NA-PETCT whole-body PSMA-89908": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-07-1999-NA-PETCT whole-body PSMA-27729": {
+            "CT_slice_num": 297,
+            "PET_slice_num": 227,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-2002-NA-PETCT whole-body PSMA-14926": {
+            "CT_slice_num": 250,
+            "PET_slice_num": 375,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "06-19-2002-NA-PETCT whole-body PSMA-12947": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-09-1999-NA-PETCT whole-body PSMA-58663": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-02-2003-NA-PETCT whole-body PSMA-52330": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-30-1998-NA-PETCT whole-body PSMA-74202": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-12-2002-NA-PETCT whole-body PSMA-85196": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-21-2001-NA-PETCT whole-body PSMA-44356": {
+            "CT_slice_num": 301,
+            "PET_slice_num": 452,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-13-1998-NA-PETCT whole-body PSMA-63849": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-29-1998-NA-PETCT whole-body PSMA-01332": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "11-05-1997-NA-PETCT whole-body PSMA-37707": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-10-2003-NA-PETCT whole-body PSMA-39076": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-18-1999-NA-PETCT whole-body PSMA-50460": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-14-2002-NA-PETCT whole-body PSMA-77859": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-20-2001-NA-PETCT whole-body PSMA-05542": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "07-06-1999-NA-PETCT whole-body PSMA-30468": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-10-2001-NA-PETCT whole-body PSMA-99565": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-15-1999-NA-PETCT whole-body PSMA-45343": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-18-2003-NA-PETCT whole-body PSMA-03544": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-24-2003-NA-PETCT whole-body PSMA-98468": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-07-1997-NA-PETCT whole-body PSMA-96140": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-19-2002-NA-PETCT whole-body PSMA-18696": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-22-2001-NA-PETCT whole-body PSMA-58200": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-07-2000-NA-PETCT whole-body PSMA-88074": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-24-1999-NA-PETCT whole-body PSMA-37928": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-17-1999-NA-PETCT whole-body PSMA-25315": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "12-07-1999-NA-PETCT whole-body PSMA-78820": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-12-2002-NA-PETCT whole-body PSMA-05015": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-27-2002-NA-PETCT whole-body PSMA-62916": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-28-2004-NA-PETCT whole-body PSMA-50529": {
+            "CT_slice_num": 281,
+            "PET_slice_num": 421,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-09-2003-NA-PETCT whole-body PSMA-48566": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "02-12-2003-NA-PETCT whole-body PSMA-78787": {
+            "CT_slice_num": 303,
+            "PET_slice_num": 454,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-02-2003-NA-PETCT whole-body PSMA-44759": {
+            "CT_slice_num": 303,
+            "PET_slice_num": 454,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-02-2002-NA-PETCT whole-body PSMA-80521": {
+            "CT_slice_num": 299,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-21-1999-NA-PETCT whole-body PSMA-94664": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-12-2002-NA-PETCT whole-body PSMA-51696": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-16-2005-NA-PETCT whole-body PSMA-53100": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "07-29-2003-NA-PETCT whole-body PSMA-62840": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-07-2001-NA-PETCT whole-body PSMA-48419": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-28-2000-NA-PETCT whole-body PSMA-32876": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-11-2001-NA-PETCT whole-body PSMA-47317": {
+            "CT_slice_num": 301,
+            "PET_slice_num": 452,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "06-12-2001-NA-PETCT whole-body PSMA-11540": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-21-2000-NA-PETCT whole-body PSMA-73268": {
+            "CT_slice_num": 292,
+            "PET_slice_num": 438,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-13-1999-NA-PETCT whole-body PSMA-00018": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-02-2000-NA-PETCT whole-body PSMA-31972": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-02-2003-NA-PETCT whole-body PSMA-88648": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "12-11-2002-NA-PETCT whole-body PSMA-03641": {
+            "CT_slice_num": 280,
+            "PET_slice_num": 419,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-24-2004-NA-PETCT whole-body PSMA-21348": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-22-2003-NA-PETCT whole-body PSMA-34365": {
+            "CT_slice_num": 285,
+            "PET_slice_num": 427,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-12-2002-NA-PETCT whole-body PSMA-58487": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-16-2002-NA-PETCT whole-body PSMA-77119": {
+            "CT_slice_num": 291,
+            "PET_slice_num": 436,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-25-1999-NA-PETCT whole-body PSMA-09103": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-12-2001-NA-PETCT whole-body PSMA-94286": {
+            "CT_slice_num": 295,
+            "PET_slice_num": 442,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-21-2001-NA-PETCT whole-body PSMA-47475": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "04-12-2002-NA-PETCT whole-body PSMA-19624": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "09-05-2001-NA-PETCT whole-body PSMA-68846": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "10-02-2002-NA-PETCT whole-body PSMA-18435": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-30-2004-NA-PETCT whole-body PSMA-99762": {
+            "CT_slice_num": 296,
+            "PET_slice_num": 444,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-17-2004-NA-PETCT whole-body PSMA-59235": {
+            "CT_slice_num": 305,
+            "PET_slice_num": 458,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-31-2002-NA-PETCT whole-body PSMA-69362": {
+            "CT_slice_num": 249,
+            "PET_slice_num": 373,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-11-2002-NA-PETCT whole-body PSMA-98101": {
+            "CT_slice_num": 245,
+            "PET_slice_num": 367,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-28-2001-NA-PETCT whole-body PSMA-90383": {
+            "CT_slice_num": 285,
+            "PET_slice_num": 427,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-20-2001-NA-PETCT whole-body PSMA-11819": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-23-2004-NA-PETCT whole-body PSMA-55695": {
+            "CT_slice_num": 280,
+            "PET_slice_num": 419,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-10-2003-NA-PETCT whole-body PSMA-62178": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-08-2003-NA-PETCT whole-body PSMA-02143": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-07-1998-NA-PETCT whole-body PSMA-50239": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-27-1998-NA-PETCT whole-body PSMA-22895": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-06-2000-NA-PETCT whole-body PSMA-62037": {
+            "CT_slice_num": 262,
+            "PET_slice_num": 393,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-28-2002-NA-PETCT whole-body PSMA-20860": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-06-2002-NA-PETCT whole-body PSMA-57673": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-27-2004-NA-PETCT whole-body PSMA-57422": {
+            "CT_slice_num": 311,
+            "PET_slice_num": 466,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-01-2004-NA-PETCT whole-body PSMA-39631": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-20-1997-NA-PETCT whole-body PSMA-37793": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-28-2000-NA-PETCT whole-body PSMA-25041": {
+            "CT_slice_num": 280,
+            "PET_slice_num": 419,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-15-2000-NA-PETCT whole-body PSMA-80633": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-21-1999-NA-PETCT whole-body PSMA-37703": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-22-2003-NA-PETCT whole-body PSMA-53601": {
+            "CT_slice_num": 266,
+            "PET_slice_num": 399,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "08-19-2003-NA-PETCT whole-body PSMA-36836": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "12-24-2003-NA-PETCT whole-body PSMA-03099": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-03-2002-NA-PETCT whole-body PSMA-14766": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-28-2000-NA-PETCT whole-body PSMA-84956": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-20-2000-NA-PETCT whole-body PSMA-14245": {
+            "CT_slice_num": 257,
+            "PET_slice_num": 385,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-22-2003-NA-PETCT whole-body PSMA-74695": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-02-2003-NA-PETCT whole-body PSMA-72994": {
+            "CT_slice_num": 255,
+            "PET_slice_num": 381,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-08-2003-NA-PETCT whole-body PSMA-07412": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-16-2002-NA-PETCT whole-body PSMA-22528": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-07-2003-NA-PETCT whole-body PSMA-03037": {
+            "CT_slice_num": 270,
+            "PET_slice_num": 405,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-22-2003-NA-PETCT whole-body PSMA-97229": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-13-2001-NA-PETCT whole-body PSMA-68344": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "11-19-2002-NA-PETCT whole-body PSMA-99738": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-13-2002-NA-PETCT whole-body PSMA-74418": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-02-2005-NA-PETCT whole-body PSMA-87483": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-12-2004-NA-PETCT whole-body PSMA-76145": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-08-2002-NA-PETCT whole-body PSMA-95354": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-23-2002-NA-PETCT whole-body PSMA-10979": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-31-2002-NA-PETCT whole-body PSMA-16326": {
+            "CT_slice_num": 259,
+            "PET_slice_num": 389,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-09-2001-NA-PETCT whole-body PSMA-23176": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-17-2002-NA-PETCT whole-body PSMA-16878": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-05-1998-NA-PETCT whole-body PSMA-34789": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-18-2003-NA-PETCT whole-body PSMA-35529": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "06-06-2001-NA-PETCT whole-body PSMA-22329": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "12-16-2003-NA-PETCT whole-body PSMA-30732": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-16-2003-NA-PETCT whole-body PSMA-67783": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-12-2003-NA-PETCT whole-body PSMA-98880": {
+            "CT_slice_num": 261,
+            "PET_slice_num": 391,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-01-2003-NA-PETCT whole-body PSMA-65095": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-08-2003-NA-PETCT whole-body PSMA-32562": {
+            "CT_slice_num": 297,
+            "PET_slice_num": 446,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-07-2000-NA-PETCT whole-body PSMA-56734": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-14-1999-NA-PETCT whole-body PSMA-24654": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-25-2002-NA-PETCT whole-body PSMA-25415": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-25-1998-NA-PETCT whole-body PSMA-70811": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-21-2002-NA-PETCT whole-body PSMA-60075": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-09-1998-NA-PETCT whole-body PSMA-96063": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-22-1997-NA-PETCT whole-body PSMA-35712": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-03-2001-NA-PETCT whole-body PSMA-96347": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-14-2000-NA-PETCT whole-body PSMA-06930": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-12-1997-NA-PETCT whole-body PSMA-46614": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "08-17-2001-NA-PETCT whole-body PSMA-45508": {
+            "CT_slice_num": 262,
+            "PET_slice_num": 393,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-05-2001-NA-PETCT whole-body PSMA-96953": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-15-2002-NA-PETCT whole-body PSMA-32712": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-09-1999-NA-PETCT whole-body PSMA-63576": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-20-1999-NA-PETCT whole-body PSMA-25395": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-22-2003-NA-PETCT whole-body PSMA-62548": {
+            "CT_slice_num": 249,
+            "PET_slice_num": 373,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-05-2003-NA-PETCT whole-body PSMA-52955": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "02-05-2002-NA-PETCT whole-body PSMA-54349": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-11-2003-NA-PETCT whole-body PSMA-86020": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "08-20-2002-NA-PETCT whole-body PSMA-24127": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "03-12-2002-NA-PETCT whole-body PSMA-23931": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-26-2002-NA-PETCT whole-body PSMA-04263": {
+            "CT_slice_num": 642,
+            "PET_slice_num": 963,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-20-2000-NA-PETCT whole-body PSMA-80263": {
+            "CT_slice_num": 273,
+            "PET_slice_num": 409,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-07-2001-NA-PETCT whole-body PSMA-85419": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-25-2000-NA-PETCT whole-body PSMA-36841": {
+            "CT_slice_num": 399,
+            "PET_slice_num": 399,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-12-2003-NA-PETCT whole-body PSMA-46345": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-02-2002-NA-PETCT whole-body PSMA-49107": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-31-2001-NA-PETCT whole-body PSMA-51261": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-16-2001-NA-PETCT whole-body PSMA-87803": {
+            "CT_slice_num": 242,
+            "PET_slice_num": 363,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-28-2000-NA-PETCT whole-body PSMA-50949": {
+            "CT_slice_num": 251,
+            "PET_slice_num": 377,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-14-1999-NA-PETCT whole-body PSMA-80463": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-05-2002-NA-PETCT whole-body PSMA-58710": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-30-1999-NA-PETCT whole-body PSMA-05692": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-22-1999-NA-PETCT whole-body PSMA-77424": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-10-1999-NA-PETCT whole-body PSMA-39318": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-04-2003-NA-PETCT whole-body PSMA-36674": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-23-2000-NA-PETCT whole-body PSMA-52289": {
+            "CT_slice_num": 265,
+            "PET_slice_num": 397,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-30-2002-NA-PETCT whole-body PSMA-70568": {
+            "CT_slice_num": 303,
+            "PET_slice_num": 454,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-21-2001-NA-PETCT whole-body PSMA-62191": {
+            "CT_slice_num": 292,
+            "PET_slice_num": 438,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-22-2001-NA-PETCT whole-body PSMA-26974": {
+            "CT_slice_num": 299,
+            "PET_slice_num": 448,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-19-2001-NA-PETCT whole-body PSMA-66655": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-24-1999-NA-PETCT whole-body PSMA-19705": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-19-2001-NA-PETCT whole-body PSMA-10667": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-30-1998-NA-PETCT whole-body PSMA-79509": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-19-2002-NA-PETCT whole-body PSMA-60703": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-20-2002-NA-PETCT whole-body PSMA-52196": {
+            "CT_slice_num": 285,
+            "PET_slice_num": 427,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-04-2001-NA-PETCT whole-body PSMA-86317": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-09-2001-NA-PETCT whole-body PSMA-49862": {
+            "CT_slice_num": 295,
+            "PET_slice_num": 442,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-16-2000-NA-PETCT whole-body PSMA-65818": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-24-1998-NA-PETCT whole-body PSMA-65244": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-07-2001-NA-PETCT whole-body PSMA-80515": {
+            "CT_slice_num": 289,
+            "PET_slice_num": 433,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-02-2001-NA-PETCT whole-body PSMA-79447": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-18-2002-NA-PETCT whole-body PSMA-06234": {
+            "CT_slice_num": 277,
+            "PET_slice_num": 415,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-29-2001-NA-PETCT whole-body PSMA-85684": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-21-2000-NA-PETCT whole-body PSMA-53446": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-02-1999-NA-PETCT whole-body PSMA-48285": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-05-1997-NA-PETCT whole-body PSMA-49852": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-02-2000-NA-PETCT whole-body PSMA-17873": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-14-2003-NA-PETCT whole-body PSMA-22951": {
+            "CT_slice_num": 276,
+            "PET_slice_num": 413,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-08-2002-NA-PETCT whole-body PSMA-29153": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-19-2003-NA-PETCT whole-body PSMA-01841": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-07-2000-NA-PETCT whole-body PSMA-79559": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-23-1999-NA-PETCT whole-body PSMA-85246": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-21-2003-NA-PETCT whole-body PSMA-20442": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-02-1997-NA-PETCT whole-body PSMA-00790": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "06-18-2002-NA-PETCT whole-body PSMA-04093": {
+            "CT_slice_num": 303,
+            "PET_slice_num": 454,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-21-2001-NA-PETCT whole-body PSMA-63552": {
+            "CT_slice_num": 301,
+            "PET_slice_num": 452,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-25-2001-NA-PETCT whole-body PSMA-24516": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-22-2000-NA-PETCT whole-body PSMA-46504": {
+            "CT_slice_num": 297,
+            "PET_slice_num": 227,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-02-2002-NA-PETCT whole-body PSMA-60323": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-26-2001-NA-PETCT whole-body PSMA-71841": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-28-2002-NA-PETCT whole-body PSMA-78241": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-21-1999-NA-PETCT whole-body PSMA-02837": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-17-2000-NA-PETCT whole-body PSMA-32001": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-11-1999-NA-PETCT whole-body PSMA-54411": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-23-2000-NA-PETCT whole-body PSMA-74947": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-20-2003-NA-PETCT whole-body PSMA-13414": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-24-1998-NA-PETCT whole-body PSMA-36740": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "11-07-2000-NA-PETCT whole-body PSMA-72496": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-05-2003-NA-PETCT whole-body PSMA-67428": {
+            "CT_slice_num": 263,
+            "PET_slice_num": 395,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-01-2003-NA-PETCT whole-body PSMA-41135": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-20-2000-NA-PETCT whole-body PSMA-44561": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-13-2001-NA-PETCT whole-body PSMA-71291": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-13-2005-NA-PETCT whole-body PSMA-07766": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "12-15-2004-NA-PETCT whole-body PSMA-49041": {
+            "CT_slice_num": 234,
+            "PET_slice_num": 350,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "07-07-2004-NA-PETCT whole-body PSMA-21994": {
+            "CT_slice_num": 236,
+            "PET_slice_num": 354,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-10-2004-NA-PETCT whole-body PSMA-79650": {
+            "CT_slice_num": 238,
+            "PET_slice_num": 356,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-30-1999-NA-PETCT whole-body PSMA-02941": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-01-2002-NA-PETCT whole-body PSMA-91538": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-12-2001-NA-PETCT whole-body PSMA-88311": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "11-09-1999-NA-PETCT whole-body PSMA-70708": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-22-2000-NA-PETCT whole-body PSMA-65772": {
+            "CT_slice_num": 278,
+            "PET_slice_num": 417,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-04-2000-NA-PETCT whole-body PSMA-51135": {
+            "CT_slice_num": 286,
+            "PET_slice_num": 429,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-28-1999-NA-PETCT whole-body PSMA-83083": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "03-26-1999-NA-PETCT whole-body PSMA-18217": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-01-1999-NA-PETCT whole-body PSMA-22811": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "04-10-2002-NA-PETCT whole-body PSMA-97230": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-01-2002-NA-PETCT whole-body PSMA-89844": {
+            "CT_slice_num": 300,
+            "PET_slice_num": 450,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-11-2000-NA-PETCT whole-body PSMA-43265": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-06-2000-NA-PETCT whole-body PSMA-91028": {
+            "CT_slice_num": 295,
+            "PET_slice_num": 442,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "04-15-2003-NA-PETCT whole-body PSMA-79154": {
+            "CT_slice_num": 280,
+            "PET_slice_num": 419,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "12-04-2002-NA-PETCT whole-body PSMA-86297": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-27-2000-NA-PETCT whole-body PSMA-67426": {
+            "CT_slice_num": 344,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-14-2000-NA-PETCT whole-body PSMA-71502": {
+            "CT_slice_num": 272,
+            "PET_slice_num": 407,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-24-1999-NA-PETCT whole-body PSMA-93146": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "01-21-2004-NA-PETCT whole-body PSMA-55234": {
+            "CT_slice_num": 293,
+            "PET_slice_num": 440,
+            "lasions_founded": false,
+            "special_prefix": false
+        },
+        "05-19-2004-NA-PETCT whole-body PSMA-90348": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": false,
+            "special_prefix": true
+        },
+        "06-29-1999-NA-PETCT whole-body PSMA-98383": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-08-2000-NA-PETCT whole-body PSMA-97152": {
+            "CT_slice_num": 292,
+            "PET_slice_num": 438,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-11-2003-NA-PETCT whole-body PSMA-35743": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-10-2003-NA-PETCT whole-body PSMA-28486": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-24-2001-NA-PETCT whole-body PSMA-21855": {
+            "CT_slice_num": 164,
+            "PET_slice_num": 263,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "07-03-2002-NA-PETCT whole-body PSMA-51500": {
+            "CT_slice_num": 293,
+            "PET_slice_num": 440,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "02-16-2005-NA-PETCT whole-body PSMA-25595": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "09-29-2004-NA-PETCT whole-body PSMA-41118": {
+            "CT_slice_num": 268,
+            "PET_slice_num": 401,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "05-16-2003-NA-PETCT whole-body PSMA-15560": {
+            "CT_slice_num": 285,
+            "PET_slice_num": 427,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-25-2002-NA-PETCT whole-body PSMA-65177": {
+            "CT_slice_num": 282,
+            "PET_slice_num": 423,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-29-2003-NA-PETCT whole-body PSMA-85251": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "08-28-2001-NA-PETCT whole-body PSMA-33953": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-01-2001-NA-PETCT whole-body PSMA-72015": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 411,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-18-1997-NA-PETCT whole-body PSMA-52270": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-25-2001-NA-PETCT whole-body PSMA-32747": {
+            "CT_slice_num": 290,
+            "PET_slice_num": 435,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "08-08-2001-NA-PETCT whole-body PSMA-84829": {
+            "CT_slice_num": 269,
+            "PET_slice_num": 403,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "01-11-2001-NA-PETCT whole-body PSMA-30808": {
+            "CT_slice_num": 263,
+            "PET_slice_num": 395,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-05-2001-NA-PETCT whole-body PSMA-42049": {
+            "CT_slice_num": 284,
+            "PET_slice_num": 425,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "09-11-2001-NA-PETCT whole-body PSMA-06562": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-22-2002-NA-PETCT whole-body PSMA-84763": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "03-09-2005-NA-PETCT whole-body PSMA-69544": {
+            "CT_slice_num": 274,
+            "PET_slice_num": 165,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "10-19-2004-NA-PETCT whole-body PSMA-55591": {
+            "CT_slice_num": 324,
+            "PET_slice_num": 195,
+            "lasions_founded": true,
+            "special_prefix": true
+        },
+        "01-25-2001-NA-PETCT whole-body PSMA-70686": {
+            "CT_slice_num": 485,
+            "PET_slice_num": 371,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "06-12-2000-NA-PETCT whole-body PSMA-96323": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        },
+        "10-08-1999-NA-PETCT whole-body PSMA-62932": {
+            "CT_slice_num": 391,
+            "PET_slice_num": 299,
+            "lasions_founded": true,
+            "special_prefix": false
+        }
+    }
+}

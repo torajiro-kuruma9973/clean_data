@@ -1,0 +1,2390 @@
+{
+    "05-03-2002-NA-PETCT whole-body PSMA-40379": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-02-2003-NA-PETCT whole-body PSMA-52679": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-20-2002-NA-PETCT whole-body PSMA-86506": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-14-2000-NA-PETCT whole-body PSMA-77322": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-15-1999-NA-PETCT whole-body PSMA-89953": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-27-1997-NA-PETCT whole-body PSMA-52038": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-28-1999-NA-PETCT whole-body PSMA-60477": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-01-2002-NA-PETCT whole-body PSMA-09934": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-11-1998-NA-PETCT whole-body PSMA-19931": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-22-1999-NA-PETCT whole-body PSMA-27045": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-23-2000-NA-PETCT whole-body PSMA-06662": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-01-2003-NA-PETCT whole-body PSMA-60374": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-14-2000-NA-PETCT whole-body PSMA-44382": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-14-2001-NA-PETCT whole-body PSMA-66020": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-11-2002-NA-PETCT whole-body PSMA-79365": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-16-2002-NA-PETCT whole-body PSMA-15680": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "10-02-2002-NA-PETCT whole-body PSMA-39650": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-20-1997-NA-PETCT whole-body PSMA-54633": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-26-1997-NA-PETCT whole-body PSMA-70279": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-25-2002-NA-PETCT whole-body PSMA-76348": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-05-2003-NA-PETCT whole-body PSMA-07504": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-01-2001-NA-PETCT whole-body PSMA-60723": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-23-2000-NA-PETCT whole-body PSMA-51493": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-12-1999-NA-PETCT whole-body PSMA-17832": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-11-1998-NA-PETCT whole-body PSMA-96700": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-06-2002-NA-PETCT whole-body PSMA-12784": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-02-2002-NA-PETCT whole-body PSMA-40922": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-30-2000-NA-PETCT whole-body PSMA-49427": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-16-1999-NA-PETCT whole-body PSMA-41215": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-04-2000-NA-PETCT whole-body PSMA-72070": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-05-1999-NA-PETCT whole-body PSMA-08263": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-24-1998-NA-PETCT whole-body PSMA-11747": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-21-2004-NA-PETCT whole-body PSMA-59148": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "12-29-2004-NA-PETCT whole-body PSMA-16305": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "03-19-2003-NA-PETCT whole-body PSMA-31723": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-09-2001-NA-PETCT whole-body PSMA-84044": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-12-1998-NA-PETCT whole-body PSMA-63064": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-25-1999-NA-PETCT whole-body PSMA-06430": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-21-2001-NA-PETCT whole-body PSMA-85883": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-27-2002-NA-PETCT whole-body PSMA-67604": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-26-2000-NA-PETCT whole-body PSMA-07066": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-17-2003-NA-PETCT whole-body PSMA-97373": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "05-13-2003-NA-PETCT whole-body PSMA-21917": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-06-2000-NA-PETCT whole-body PSMA-53604": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-10-2002-NA-PETCT whole-body PSMA-18075": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "05-04-2001-NA-PETCT whole-body PSMA-00228": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-21-2000-NA-PETCT whole-body PSMA-53143": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-07-1999-NA-PETCT whole-body PSMA-71943": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-01-2000-NA-PETCT whole-body PSMA-35353": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "02-26-2003-NA-PETCT whole-body PSMA-84859": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-16-2002-NA-PETCT whole-body PSMA-94345": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "12-15-1998-NA-PETCT whole-body PSMA-67269": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-15-2003-NA-PETCT whole-body PSMA-90102": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-11-2002-NA-PETCT whole-body PSMA-69386": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-03-2003-NA-PETCT whole-body PSMA-37251": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "12-11-2002-NA-PETCT whole-body PSMA-08799": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "05-01-2002-NA-PETCT whole-body PSMA-33539": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-30-2003-NA-PETCT whole-body PSMA-17759": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-25-1999-NA-PETCT whole-body PSMA-30983": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-13-1998-NA-PETCT whole-body PSMA-08465": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-14-1997-NA-PETCT whole-body PSMA-34377": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-03-2003-NA-PETCT whole-body PSMA-31671": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-16-2002-NA-PETCT whole-body PSMA-49612": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-29-2003-NA-PETCT whole-body PSMA-38960": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-19-2000-NA-PETCT whole-body PSMA-65511": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-21-2003-NA-PETCT whole-body PSMA-87471": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "12-09-2003-NA-PETCT whole-body PSMA-91193": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "07-02-2002-NA-PETCT whole-body PSMA-11400": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-24-2002-NA-PETCT whole-body PSMA-15908": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "01-30-2001-NA-PETCT whole-body PSMA-43037": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "03-12-2002-NA-PETCT whole-body PSMA-46403": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-17-1998-NA-PETCT whole-body PSMA-96903": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-27-2002-NA-PETCT whole-body PSMA-81476": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-09-1999-NA-PETCT whole-body PSMA-38033": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-05-2003-NA-PETCT whole-body PSMA-46527": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-07-2001-NA-PETCT whole-body PSMA-46453": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-19-1998-NA-PETCT whole-body PSMA-74344": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-16-1997-NA-PETCT whole-body PSMA-82234": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-06-2005-NA-PETCT whole-body PSMA-56170": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-09-2005-NA-PETCT whole-body PSMA-88285": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-01-2000-NA-PETCT whole-body PSMA-09432": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-15-1999-NA-PETCT whole-body PSMA-99456": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-18-1999-NA-PETCT whole-body PSMA-46458": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-17-1997-NA-PETCT whole-body PSMA-23279": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "07-25-2000-NA-PETCT whole-body PSMA-30927": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-25-1997-NA-PETCT whole-body PSMA-92070": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "02-16-2000-NA-PETCT whole-body PSMA-27913": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "04-30-2003-NA-PETCT whole-body PSMA-41727": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "03-06-2002-NA-PETCT whole-body PSMA-69274": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-26-1999-NA-PETCT whole-body PSMA-74460": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-20-1998-NA-PETCT whole-body PSMA-27790": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-05-2000-NA-PETCT whole-body PSMA-69698": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-08-2002-NA-PETCT whole-body PSMA-86981": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-20-2000-NA-PETCT whole-body PSMA-72056": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-12-2000-NA-PETCT whole-body PSMA-87681": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-14-2000-NA-PETCT whole-body PSMA-53558": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-22-2003-NA-PETCT whole-body PSMA-60636": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-11-2002-NA-PETCT whole-body PSMA-18958": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-14-2002-NA-PETCT whole-body PSMA-04773": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-04-2004-NA-PETCT whole-body PSMA-86983": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-16-2004-NA-PETCT whole-body PSMA-23995": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-27-2002-NA-PETCT whole-body PSMA-70554": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-06-2002-NA-PETCT whole-body PSMA-06598": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-03-2002-NA-PETCT whole-body PSMA-47273": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-13-2002-NA-PETCT whole-body PSMA-35134": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-29-1999-NA-PETCT whole-body PSMA-90640": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-05-2000-NA-PETCT whole-body PSMA-94537": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-16-1999-NA-PETCT whole-body PSMA-56686": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-13-1998-NA-PETCT whole-body PSMA-77898": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-14-1998-NA-PETCT whole-body PSMA-56753": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-10-1999-NA-PETCT whole-body PSMA-55795": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-16-1997-NA-PETCT whole-body PSMA-67655": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-06-2003-NA-PETCT whole-body PSMA-52309": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-21-2001-NA-PETCT whole-body PSMA-95505": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-16-1999-NA-PETCT whole-body PSMA-00316": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-06-1998-NA-PETCT whole-body PSMA-23627": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-26-2000-NA-PETCT whole-body PSMA-89212": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-30-2003-NA-PETCT whole-body PSMA-70912": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "03-06-2001-NA-PETCT whole-body PSMA-40501": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-26-2000-NA-PETCT whole-body PSMA-74598": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-29-1999-NA-PETCT whole-body PSMA-38225": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-14-2000-NA-PETCT whole-body PSMA-06172": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-12-2000-NA-PETCT whole-body PSMA-82746": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-13-2001-NA-PETCT whole-body PSMA-13751": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-26-1997-NA-PETCT whole-body PSMA-95797": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-13-2001-NA-PETCT whole-body PSMA-94743": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "11-24-2000-NA-PETCT whole-body PSMA-79197": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-19-2003-NA-PETCT whole-body PSMA-23020": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-20-2002-NA-PETCT whole-body PSMA-32747": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-24-2001-NA-PETCT whole-body PSMA-54108": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-19-2005-NA-PETCT whole-body PSMA-03127": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-25-2005-NA-PETCT whole-body PSMA-30289": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-30-2003-NA-PETCT whole-body PSMA-49399": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-23-2002-NA-PETCT whole-body PSMA-99135": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-12-1997-NA-PETCT whole-body PSMA-31465": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-19-1999-NA-PETCT whole-body PSMA-19300": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-05-1998-NA-PETCT whole-body PSMA-28057": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-07-2000-NA-PETCT whole-body PSMA-20889": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-20-1998-NA-PETCT whole-body PSMA-17603": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-12-2000-NA-PETCT whole-body PSMA-92003": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-04-1999-NA-PETCT whole-body PSMA-93562": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-28-2001-NA-PETCT whole-body PSMA-16478": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-09-1999-NA-PETCT whole-body PSMA-53699": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-02-2003-NA-PETCT whole-body PSMA-64520": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-04-2002-NA-PETCT whole-body PSMA-33584": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-26-2002-NA-PETCT whole-body PSMA-30663": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-06-1999-NA-PETCT whole-body PSMA-79386": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-06-2003-NA-PETCT whole-body PSMA-32259": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-10-1998-NA-PETCT whole-body PSMA-80364": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-03-2003-NA-PETCT whole-body PSMA-55298": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-04-2001-NA-PETCT whole-body PSMA-29654": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-10-1998-NA-PETCT whole-body PSMA-76801": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-01-2003-NA-PETCT whole-body PSMA-88104": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-15-2001-NA-PETCT whole-body PSMA-22756": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-07-2003-NA-PETCT whole-body PSMA-76240": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "07-30-1998-NA-PETCT whole-body PSMA-26704": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-19-2001-NA-PETCT whole-body PSMA-15634": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-16-2001-NA-PETCT whole-body PSMA-75073": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-05-2001-NA-PETCT whole-body PSMA-53735": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-30-1997-NA-PETCT whole-body PSMA-83066": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-07-2000-NA-PETCT whole-body PSMA-03348": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-17-2002-NA-PETCT whole-body PSMA-95163": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-14-1997-NA-PETCT whole-body PSMA-40030": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-25-2002-NA-PETCT whole-body PSMA-02637": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-12-2002-NA-PETCT whole-body PSMA-95052": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-29-2000-NA-PETCT whole-body PSMA-14734": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-28-2004-NA-PETCT whole-body PSMA-75504": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-15-2003-NA-PETCT whole-body PSMA-31012": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-17-1998-NA-PETCT whole-body PSMA-50968": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-27-1998-NA-PETCT whole-body PSMA-83278": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-03-1997-NA-PETCT whole-body PSMA-06028": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-18-1998-NA-PETCT whole-body PSMA-99773": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-09-2000-NA-PETCT whole-body PSMA-52221": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-10-1998-NA-PETCT whole-body PSMA-85154": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-08-2002-NA-PETCT whole-body PSMA-74959": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-27-2002-NA-PETCT whole-body PSMA-37960": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-06-2005-NA-PETCT whole-body PSMA-50890": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "07-25-2003-NA-PETCT whole-body PSMA-89825": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-08-2004-NA-PETCT whole-body PSMA-28933": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-15-2002-NA-PETCT whole-body PSMA-33294": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-28-1998-NA-PETCT whole-body PSMA-17755": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-04-2002-NA-PETCT whole-body PSMA-62939": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-10-2003-NA-PETCT whole-body PSMA-57067": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "06-11-2003-NA-PETCT whole-body PSMA-87384": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "09-07-2001-NA-PETCT whole-body PSMA-51773": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-19-2000-NA-PETCT whole-body PSMA-51525": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-27-1999-NA-PETCT whole-body PSMA-85295": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-29-1997-NA-PETCT whole-body PSMA-37898": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-11-1997-NA-PETCT whole-body PSMA-84450": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-21-1998-NA-PETCT whole-body PSMA-37458": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-30-1998-NA-PETCT whole-body PSMA-39502": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "12-28-1999-NA-PETCT whole-body PSMA-03077": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-30-2003-NA-PETCT whole-body PSMA-86959": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-16-1998-NA-PETCT whole-body PSMA-17394": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-23-2003-NA-PETCT whole-body PSMA-27864": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-11-2001-NA-PETCT whole-body PSMA-94451": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-16-2000-NA-PETCT whole-body PSMA-74624": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-04-2000-NA-PETCT whole-body PSMA-70755": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-19-2003-NA-PETCT whole-body PSMA-25070": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-05-2004-NA-PETCT whole-body PSMA-53214": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-26-2003-NA-PETCT whole-body PSMA-52100": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-17-1997-NA-PETCT whole-body PSMA-25982": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-27-1997-NA-PETCT whole-body PSMA-59494": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-06-1998-NA-PETCT whole-body PSMA-09399": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-11-2002-NA-PETCT whole-body PSMA-26477": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-02-2002-NA-PETCT whole-body PSMA-06501": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-29-2000-NA-PETCT whole-body PSMA-00921": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-22-2001-NA-PETCT whole-body PSMA-02471": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-26-2001-NA-PETCT whole-body PSMA-98145": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-16-2000-NA-PETCT whole-body PSMA-77887": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-18-2003-NA-PETCT whole-body PSMA-93765": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "01-06-1999-NA-PETCT whole-body PSMA-85399": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-12-1998-NA-PETCT whole-body PSMA-17228": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-05-1999-NA-PETCT whole-body PSMA-28138": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-08-2001-NA-PETCT whole-body PSMA-76599": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-23-2001-NA-PETCT whole-body PSMA-91074": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-28-2003-NA-PETCT whole-body PSMA-00608": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-22-2003-NA-PETCT whole-body PSMA-36224": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "09-16-1999-NA-PETCT whole-body PSMA-78159": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-09-2003-NA-PETCT whole-body PSMA-01049": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "04-22-1999-NA-PETCT whole-body PSMA-12539": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-30-1998-NA-PETCT whole-body PSMA-13436": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-04-2002-NA-PETCT whole-body PSMA-01147": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-03-2001-NA-PETCT whole-body PSMA-59168": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-15-2002-NA-PETCT whole-body PSMA-45074": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-19-2002-NA-PETCT whole-body PSMA-68491": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-19-2001-NA-PETCT whole-body PSMA-36377": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-22-1997-NA-PETCT whole-body PSMA-84347": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-26-1997-NA-PETCT whole-body PSMA-55518": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-23-2000-NA-PETCT whole-body PSMA-01332": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-06-1999-NA-PETCT whole-body PSMA-66587": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-08-1998-NA-PETCT whole-body PSMA-54109": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "12-29-1997-NA-PETCT whole-body PSMA-48265": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-20-2002-NA-PETCT whole-body PSMA-97217": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "10-05-2001-NA-PETCT whole-body PSMA-09888": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-17-1999-NA-PETCT whole-body PSMA-29710": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-21-2000-NA-PETCT whole-body PSMA-24904": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-31-2002-NA-PETCT whole-body PSMA-85128": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-10-2002-NA-PETCT whole-body PSMA-66662": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-26-1997-NA-PETCT whole-body PSMA-03065": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-24-1997-NA-PETCT whole-body PSMA-26393": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-22-1999-NA-PETCT whole-body PSMA-13336": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-14-1997-NA-PETCT whole-body PSMA-24934": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-10-1997-NA-PETCT whole-body PSMA-78615": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-04-2003-NA-PETCT whole-body PSMA-09966": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-09-2001-NA-PETCT whole-body PSMA-42716": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-19-2002-NA-PETCT whole-body PSMA-04630": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-27-2005-NA-PETCT whole-body PSMA-71066": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-15-2004-NA-PETCT whole-body PSMA-77153": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-05-1998-NA-PETCT whole-body PSMA-66475": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "07-25-2001-NA-PETCT whole-body PSMA-73980": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-20-2000-NA-PETCT whole-body PSMA-69040": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-06-2005-NA-PETCT whole-body PSMA-78008": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-08-2004-NA-PETCT whole-body PSMA-79310": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-12-2001-NA-PETCT whole-body PSMA-61840": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-26-1999-NA-PETCT whole-body PSMA-88606": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-25-2003-NA-PETCT whole-body PSMA-46612": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-26-1997-NA-PETCT whole-body PSMA-54011": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-02-2005-NA-PETCT whole-body PSMA-79201": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "10-13-2004-NA-PETCT whole-body PSMA-18535": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "11-27-1997-NA-PETCT whole-body PSMA-25278": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-09-2001-NA-PETCT whole-body PSMA-64030": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "05-24-2000-NA-PETCT whole-body PSMA-28597": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-19-1998-NA-PETCT whole-body PSMA-82612": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-09-1998-NA-PETCT whole-body PSMA-32698": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-20-1997-NA-PETCT whole-body PSMA-11354": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-08-2003-NA-PETCT whole-body PSMA-65847": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "01-09-2004-NA-PETCT whole-body PSMA-44413": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-01-2003-NA-PETCT whole-body PSMA-23275": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-25-2002-NA-PETCT whole-body PSMA-25780": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-23-2002-NA-PETCT whole-body PSMA-35568": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-25-2002-NA-PETCT whole-body PSMA-65769": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-24-2002-NA-PETCT whole-body PSMA-26112": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-12-2001-NA-PETCT whole-body PSMA-25683": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-28-2000-NA-PETCT whole-body PSMA-61643": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-22-2000-NA-PETCT whole-body PSMA-57275": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-24-2003-NA-PETCT whole-body PSMA-71606": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-11-2003-NA-PETCT whole-body PSMA-37514": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-31-2001-NA-PETCT whole-body PSMA-08300": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-09-2003-NA-PETCT whole-body PSMA-48876": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-12-2000-NA-PETCT whole-body PSMA-16264": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-03-2003-NA-PETCT whole-body PSMA-69734": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-03-2001-NA-PETCT whole-body PSMA-51680": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-21-2000-NA-PETCT whole-body PSMA-68952": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-10-2001-NA-PETCT whole-body PSMA-95720": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-02-2001-NA-PETCT whole-body PSMA-77482": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-14-2004-NA-PETCT whole-body PSMA-02106": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-31-2003-NA-PETCT whole-body PSMA-98327": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-16-1998-NA-PETCT whole-body PSMA-87047": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-09-1999-NA-PETCT whole-body PSMA-09529": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-02-2000-NA-PETCT whole-body PSMA-76511": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-22-2001-NA-PETCT whole-body PSMA-32133": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-02-2002-NA-PETCT whole-body PSMA-71496": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-22-1998-NA-PETCT whole-body PSMA-69841": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-14-1998-NA-PETCT whole-body PSMA-90901": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-22-1997-NA-PETCT whole-body PSMA-00561": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-09-2001-NA-PETCT whole-body PSMA-65497": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-18-2001-NA-PETCT whole-body PSMA-65510": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-24-2003-NA-PETCT whole-body PSMA-44290": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-06-2000-NA-PETCT whole-body PSMA-85330": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-24-1999-NA-PETCT whole-body PSMA-92631": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-03-2002-NA-PETCT whole-body PSMA-21786": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-03-2002-NA-PETCT whole-body PSMA-17024": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-04-2004-NA-PETCT whole-body PSMA-41850": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-09-2003-NA-PETCT whole-body PSMA-81920": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-15-2002-NA-PETCT whole-body PSMA-25390": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "09-11-2002-NA-PETCT whole-body PSMA-35688": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-15-2003-NA-PETCT whole-body PSMA-32455": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-15-2003-NA-PETCT whole-body PSMA-87914": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "02-17-1999-NA-PETCT whole-body PSMA-72960": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-16-2003-NA-PETCT whole-body PSMA-36454": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "04-23-1998-NA-PETCT whole-body PSMA-64317": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "07-24-2002-NA-PETCT whole-body PSMA-76539": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-04-1998-NA-PETCT whole-body PSMA-66649": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "02-10-2004-NA-PETCT whole-body PSMA-24532": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-02-2004-NA-PETCT whole-body PSMA-10492": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "01-02-2002-NA-PETCT whole-body PSMA-46123": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-15-1997-NA-PETCT whole-body PSMA-58469": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-21-2003-NA-PETCT whole-body PSMA-08801": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "03-05-1998-NA-PETCT whole-body PSMA-38908": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-23-2003-NA-PETCT whole-body PSMA-28824": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-26-2003-NA-PETCT whole-body PSMA-86850": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "07-26-2002-NA-PETCT whole-body PSMA-63565": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-29-2002-NA-PETCT whole-body PSMA-90809": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-26-2001-NA-PETCT whole-body PSMA-04343": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-18-2003-NA-PETCT whole-body PSMA-63633": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-01-2002-NA-PETCT whole-body PSMA-21061": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-04-2002-NA-PETCT whole-body PSMA-26895": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-20-2002-NA-PETCT whole-body PSMA-34494": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-11-1999-NA-PETCT whole-body PSMA-47705": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-22-2003-NA-PETCT whole-body PSMA-43962": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-18-1999-NA-PETCT whole-body PSMA-12748": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "12-22-1999-NA-PETCT whole-body PSMA-04164": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-23-2000-NA-PETCT whole-body PSMA-09070": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-30-2000-NA-PETCT whole-body PSMA-94789": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-11-2003-NA-PETCT whole-body PSMA-48183": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-05-2001-NA-PETCT whole-body PSMA-61715": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-03-2001-NA-PETCT whole-body PSMA-64194": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-21-1997-NA-PETCT whole-body PSMA-47899": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-15-2003-NA-PETCT whole-body PSMA-06860": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "02-12-2002-NA-PETCT whole-body PSMA-44642": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-02-2002-NA-PETCT whole-body PSMA-46198": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-27-2002-NA-PETCT whole-body PSMA-80741": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-01-2002-NA-PETCT whole-body PSMA-02764": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-09-2001-NA-PETCT whole-body PSMA-55562": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-11-2000-NA-PETCT whole-body PSMA-25899": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-12-2002-NA-PETCT whole-body PSMA-64897": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-17-1998-NA-PETCT whole-body PSMA-03986": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-31-2001-NA-PETCT whole-body PSMA-02817": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-20-1999-NA-PETCT whole-body PSMA-35028": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "05-16-2001-NA-PETCT whole-body PSMA-37725": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-11-1998-NA-PETCT whole-body PSMA-20018": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-31-1999-NA-PETCT whole-body PSMA-46384": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-06-1999-NA-PETCT whole-body PSMA-25466": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "02-11-2004-NA-PETCT whole-body PSMA-46045": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-08-2004-NA-PETCT whole-body PSMA-64000": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-27-2000-NA-PETCT whole-body PSMA-39038": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-14-1998-NA-PETCT whole-body PSMA-89908": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-07-1999-NA-PETCT whole-body PSMA-27729": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-15-2002-NA-PETCT whole-body PSMA-14926": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-19-2002-NA-PETCT whole-body PSMA-12947": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-09-1999-NA-PETCT whole-body PSMA-58663": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-02-2003-NA-PETCT whole-body PSMA-52330": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-30-1998-NA-PETCT whole-body PSMA-74202": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-12-2002-NA-PETCT whole-body PSMA-85196": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-21-2001-NA-PETCT whole-body PSMA-44356": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-13-1998-NA-PETCT whole-body PSMA-63849": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-29-1998-NA-PETCT whole-body PSMA-01332": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-05-1997-NA-PETCT whole-body PSMA-37707": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-10-2003-NA-PETCT whole-body PSMA-39076": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "03-18-1999-NA-PETCT whole-body PSMA-50460": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-14-2002-NA-PETCT whole-body PSMA-77859": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-20-2001-NA-PETCT whole-body PSMA-05542": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-06-1999-NA-PETCT whole-body PSMA-30468": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-10-2001-NA-PETCT whole-body PSMA-99565": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-15-1999-NA-PETCT whole-body PSMA-45343": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-18-2003-NA-PETCT whole-body PSMA-03544": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "09-24-2003-NA-PETCT whole-body PSMA-98468": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "07-07-1997-NA-PETCT whole-body PSMA-96140": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-19-2002-NA-PETCT whole-body PSMA-18696": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "01-22-2001-NA-PETCT whole-body PSMA-58200": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-07-2000-NA-PETCT whole-body PSMA-88074": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-24-1999-NA-PETCT whole-body PSMA-37928": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-17-1999-NA-PETCT whole-body PSMA-25315": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-07-1999-NA-PETCT whole-body PSMA-78820": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-12-2002-NA-PETCT whole-body PSMA-05015": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-27-2002-NA-PETCT whole-body PSMA-62916": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-28-2004-NA-PETCT whole-body PSMA-50529": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-09-2003-NA-PETCT whole-body PSMA-48566": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "02-12-2003-NA-PETCT whole-body PSMA-78787": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-02-2003-NA-PETCT whole-body PSMA-44759": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-02-2002-NA-PETCT whole-body PSMA-80521": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-21-1999-NA-PETCT whole-body PSMA-94664": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-12-2002-NA-PETCT whole-body PSMA-51696": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-16-2005-NA-PETCT whole-body PSMA-53100": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "07-29-2003-NA-PETCT whole-body PSMA-62840": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-07-2001-NA-PETCT whole-body PSMA-48419": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "12-28-2000-NA-PETCT whole-body PSMA-32876": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-11-2001-NA-PETCT whole-body PSMA-47317": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-12-2001-NA-PETCT whole-body PSMA-11540": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-21-2000-NA-PETCT whole-body PSMA-73268": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-13-1999-NA-PETCT whole-body PSMA-00018": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-02-2000-NA-PETCT whole-body PSMA-31972": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-02-2003-NA-PETCT whole-body PSMA-88648": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "12-11-2002-NA-PETCT whole-body PSMA-03641": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-24-2004-NA-PETCT whole-body PSMA-21348": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-22-2003-NA-PETCT whole-body PSMA-34365": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-12-2002-NA-PETCT whole-body PSMA-58487": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-16-2002-NA-PETCT whole-body PSMA-77119": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-25-1999-NA-PETCT whole-body PSMA-09103": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-12-2001-NA-PETCT whole-body PSMA-94286": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-21-2001-NA-PETCT whole-body PSMA-47475": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-12-2002-NA-PETCT whole-body PSMA-19624": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-05-2001-NA-PETCT whole-body PSMA-68846": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-02-2002-NA-PETCT whole-body PSMA-18435": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-30-2004-NA-PETCT whole-body PSMA-99762": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "11-17-2004-NA-PETCT whole-body PSMA-59235": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "05-31-2002-NA-PETCT whole-body PSMA-69362": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-11-2002-NA-PETCT whole-body PSMA-98101": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "08-28-2001-NA-PETCT whole-body PSMA-90383": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-20-2001-NA-PETCT whole-body PSMA-11819": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-23-2004-NA-PETCT whole-body PSMA-55695": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-10-2003-NA-PETCT whole-body PSMA-62178": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-08-2003-NA-PETCT whole-body PSMA-02143": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-07-1998-NA-PETCT whole-body PSMA-50239": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-27-1998-NA-PETCT whole-body PSMA-22895": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-06-2000-NA-PETCT whole-body PSMA-62037": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-28-2002-NA-PETCT whole-body PSMA-20860": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-06-2002-NA-PETCT whole-body PSMA-57673": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-27-2004-NA-PETCT whole-body PSMA-57422": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-01-2004-NA-PETCT whole-body PSMA-39631": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-20-1997-NA-PETCT whole-body PSMA-37793": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-28-2000-NA-PETCT whole-body PSMA-25041": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-15-2000-NA-PETCT whole-body PSMA-80633": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-21-1999-NA-PETCT whole-body PSMA-37703": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-22-2003-NA-PETCT whole-body PSMA-53601": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-19-2003-NA-PETCT whole-body PSMA-36836": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "12-24-2003-NA-PETCT whole-body PSMA-03099": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-03-2002-NA-PETCT whole-body PSMA-14766": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "03-28-2000-NA-PETCT whole-body PSMA-84956": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-20-2000-NA-PETCT whole-body PSMA-14245": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-22-2003-NA-PETCT whole-body PSMA-74695": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-02-2003-NA-PETCT whole-body PSMA-72994": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-08-2003-NA-PETCT whole-body PSMA-07412": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "10-16-2002-NA-PETCT whole-body PSMA-22528": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-07-2003-NA-PETCT whole-body PSMA-03037": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-22-2003-NA-PETCT whole-body PSMA-97229": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-13-2001-NA-PETCT whole-body PSMA-68344": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-19-2002-NA-PETCT whole-body PSMA-99738": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "08-13-2002-NA-PETCT whole-body PSMA-74418": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-02-2005-NA-PETCT whole-body PSMA-87483": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-12-2004-NA-PETCT whole-body PSMA-76145": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "01-08-2002-NA-PETCT whole-body PSMA-95354": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-23-2002-NA-PETCT whole-body PSMA-10979": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-31-2002-NA-PETCT whole-body PSMA-16326": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-09-2001-NA-PETCT whole-body PSMA-23176": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-17-2002-NA-PETCT whole-body PSMA-16878": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-05-1998-NA-PETCT whole-body PSMA-34789": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-18-2003-NA-PETCT whole-body PSMA-35529": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-06-2001-NA-PETCT whole-body PSMA-22329": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-16-2003-NA-PETCT whole-body PSMA-30732": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "05-16-2003-NA-PETCT whole-body PSMA-67783": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "11-12-2003-NA-PETCT whole-body PSMA-98880": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-01-2003-NA-PETCT whole-body PSMA-65095": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "04-08-2003-NA-PETCT whole-body PSMA-32562": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-07-2000-NA-PETCT whole-body PSMA-56734": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-14-1999-NA-PETCT whole-body PSMA-24654": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-25-2002-NA-PETCT whole-body PSMA-25415": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-25-1998-NA-PETCT whole-body PSMA-70811": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-21-2002-NA-PETCT whole-body PSMA-60075": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-09-1998-NA-PETCT whole-body PSMA-96063": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-22-1997-NA-PETCT whole-body PSMA-35712": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "01-03-2001-NA-PETCT whole-body PSMA-96347": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "09-14-2000-NA-PETCT whole-body PSMA-06930": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-12-1997-NA-PETCT whole-body PSMA-46614": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-17-2001-NA-PETCT whole-body PSMA-45508": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-05-2001-NA-PETCT whole-body PSMA-96953": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-15-2002-NA-PETCT whole-body PSMA-32712": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-09-1999-NA-PETCT whole-body PSMA-63576": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-20-1999-NA-PETCT whole-body PSMA-25395": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-22-2003-NA-PETCT whole-body PSMA-62548": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "12-05-2003-NA-PETCT whole-body PSMA-52955": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "02-05-2002-NA-PETCT whole-body PSMA-54349": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-11-2003-NA-PETCT whole-body PSMA-86020": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "08-20-2002-NA-PETCT whole-body PSMA-24127": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-12-2002-NA-PETCT whole-body PSMA-23931": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-26-2002-NA-PETCT whole-body PSMA-04263": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-20-2000-NA-PETCT whole-body PSMA-80263": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-07-2001-NA-PETCT whole-body PSMA-85419": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-25-2000-NA-PETCT whole-body PSMA-36841": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "03-12-2003-NA-PETCT whole-body PSMA-46345": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-02-2002-NA-PETCT whole-body PSMA-49107": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-31-2001-NA-PETCT whole-body PSMA-51261": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-16-2001-NA-PETCT whole-body PSMA-87803": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-28-2000-NA-PETCT whole-body PSMA-50949": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-14-1999-NA-PETCT whole-body PSMA-80463": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-05-2002-NA-PETCT whole-body PSMA-58710": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-30-1999-NA-PETCT whole-body PSMA-05692": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-22-1999-NA-PETCT whole-body PSMA-77424": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-10-1999-NA-PETCT whole-body PSMA-39318": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-04-2003-NA-PETCT whole-body PSMA-36674": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "05-23-2000-NA-PETCT whole-body PSMA-52289": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-30-2002-NA-PETCT whole-body PSMA-70568": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-21-2001-NA-PETCT whole-body PSMA-62191": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-22-2001-NA-PETCT whole-body PSMA-26974": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "12-19-2001-NA-PETCT whole-body PSMA-66655": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-24-1999-NA-PETCT whole-body PSMA-19705": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-19-2001-NA-PETCT whole-body PSMA-10667": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-30-1998-NA-PETCT whole-body PSMA-79509": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-19-2002-NA-PETCT whole-body PSMA-60703": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-20-2002-NA-PETCT whole-body PSMA-52196": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-04-2001-NA-PETCT whole-body PSMA-86317": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-09-2001-NA-PETCT whole-body PSMA-49862": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-16-2000-NA-PETCT whole-body PSMA-65818": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-24-1998-NA-PETCT whole-body PSMA-65244": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-07-2001-NA-PETCT whole-body PSMA-80515": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-02-2001-NA-PETCT whole-body PSMA-79447": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-18-2002-NA-PETCT whole-body PSMA-06234": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-29-2001-NA-PETCT whole-body PSMA-85684": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-21-2000-NA-PETCT whole-body PSMA-53446": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-02-1999-NA-PETCT whole-body PSMA-48285": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "09-05-1997-NA-PETCT whole-body PSMA-49852": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "05-02-2000-NA-PETCT whole-body PSMA-17873": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "02-14-2003-NA-PETCT whole-body PSMA-22951": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-08-2002-NA-PETCT whole-body PSMA-29153": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-19-2003-NA-PETCT whole-body PSMA-01841": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "04-07-2000-NA-PETCT whole-body PSMA-79559": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "11-23-1999-NA-PETCT whole-body PSMA-85246": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-21-2003-NA-PETCT whole-body PSMA-20442": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "12-02-1997-NA-PETCT whole-body PSMA-00790": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-18-2002-NA-PETCT whole-body PSMA-04093": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-21-2001-NA-PETCT whole-body PSMA-63552": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-25-2001-NA-PETCT whole-body PSMA-24516": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-22-2000-NA-PETCT whole-body PSMA-46504": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-02-2002-NA-PETCT whole-body PSMA-60323": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "09-26-2001-NA-PETCT whole-body PSMA-71841": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-28-2002-NA-PETCT whole-body PSMA-78241": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-21-1999-NA-PETCT whole-body PSMA-02837": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-17-2000-NA-PETCT whole-body PSMA-32001": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-11-1999-NA-PETCT whole-body PSMA-54411": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-23-2000-NA-PETCT whole-body PSMA-74947": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "08-20-2003-NA-PETCT whole-body PSMA-13414": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "02-24-1998-NA-PETCT whole-body PSMA-36740": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "11-07-2000-NA-PETCT whole-body PSMA-72496": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-05-2003-NA-PETCT whole-body PSMA-67428": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-01-2003-NA-PETCT whole-body PSMA-41135": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-20-2000-NA-PETCT whole-body PSMA-44561": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "04-13-2001-NA-PETCT whole-body PSMA-71291": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "04-13-2005-NA-PETCT whole-body PSMA-07766": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "12-15-2004-NA-PETCT whole-body PSMA-49041": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-07-2004-NA-PETCT whole-body PSMA-21994": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "11-10-2004-NA-PETCT whole-body PSMA-79650": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-30-1999-NA-PETCT whole-body PSMA-02941": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-01-2002-NA-PETCT whole-body PSMA-91538": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-12-2001-NA-PETCT whole-body PSMA-88311": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "11-09-1999-NA-PETCT whole-body PSMA-70708": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-22-2000-NA-PETCT whole-body PSMA-65772": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "10-04-2000-NA-PETCT whole-body PSMA-51135": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "07-28-1999-NA-PETCT whole-body PSMA-83083": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "03-26-1999-NA-PETCT whole-body PSMA-18217": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-01-1999-NA-PETCT whole-body PSMA-22811": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "04-10-2002-NA-PETCT whole-body PSMA-97230": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "10-01-2002-NA-PETCT whole-body PSMA-89844": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-11-2000-NA-PETCT whole-body PSMA-43265": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "12-06-2000-NA-PETCT whole-body PSMA-91028": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "04-15-2003-NA-PETCT whole-body PSMA-79154": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "12-04-2002-NA-PETCT whole-body PSMA-86297": {
+        "PET": "256x256",
+        "CT": "512x512"
+    },
+    "06-27-2000-NA-PETCT whole-body PSMA-67426": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-14-2000-NA-PETCT whole-body PSMA-71502": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "03-24-1999-NA-PETCT whole-body PSMA-93146": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-21-2004-NA-PETCT whole-body PSMA-55234": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "05-19-2004-NA-PETCT whole-body PSMA-90348": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "06-29-1999-NA-PETCT whole-body PSMA-98383": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-08-2000-NA-PETCT whole-body PSMA-97152": {
+        "CT": "512x512",
+        "PET": "200x200"
+    },
+    "06-11-2003-NA-PETCT whole-body PSMA-35743": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "10-10-2003-NA-PETCT whole-body PSMA-28486": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "01-24-2001-NA-PETCT whole-body PSMA-21855": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "07-03-2002-NA-PETCT whole-body PSMA-51500": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "02-16-2005-NA-PETCT whole-body PSMA-25595": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "09-29-2004-NA-PETCT whole-body PSMA-41118": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "05-16-2003-NA-PETCT whole-body PSMA-15560": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-25-2002-NA-PETCT whole-body PSMA-65177": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-29-2003-NA-PETCT whole-body PSMA-85251": {
+        "PET": "168x168",
+        "CT": "512x512"
+    },
+    "08-28-2001-NA-PETCT whole-body PSMA-33953": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-01-2001-NA-PETCT whole-body PSMA-72015": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-18-1997-NA-PETCT whole-body PSMA-52270": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "01-25-2001-NA-PETCT whole-body PSMA-32747": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "08-08-2001-NA-PETCT whole-body PSMA-84829": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "01-11-2001-NA-PETCT whole-body PSMA-30808": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "06-05-2001-NA-PETCT whole-body PSMA-42049": {
+        "PET": "200x200",
+        "CT": "512x512"
+    },
+    "09-11-2001-NA-PETCT whole-body PSMA-06562": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-22-2002-NA-PETCT whole-body PSMA-84763": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "03-09-2005-NA-PETCT whole-body PSMA-69544": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "10-19-2004-NA-PETCT whole-body PSMA-55591": {
+        "CT": "512x512",
+        "PET": "168x168"
+    },
+    "01-25-2001-NA-PETCT whole-body PSMA-70686": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "06-12-2000-NA-PETCT whole-body PSMA-96323": {
+        "CT": "512x512",
+        "PET": "256x256"
+    },
+    "10-08-1999-NA-PETCT whole-body PSMA-62932": {
+        "CT": "512x512",
+        "PET": "256x256"
+    }
+}

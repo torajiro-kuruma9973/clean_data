@@ -110,13 +110,13 @@ def count_study_id_folders(root_dir): # count the num of studyID folders
 # ===============================
 if __name__ == "__main__":
     # 参数 1: 数据集根目录
-    my_root_dir = "./PSMA-PET-CT-Lesions"  
+    my_root_dir = "../PSMA-PET-CT-Lesions"  
     
     # 参数 2: 你的 JSON 映射文件
     my_json_path = "./name_mapping.json"  
     
     # 参数 3: 打算用来存放废弃/多余 Study 的文件夹
-    my_target_dir = "./Unmatched_Studies_Archive"  
+    my_target_dir = "../Unmatched_Studies_Archive"  
     
     # 执行函数
     move_unmatched_studies(my_root_dir, my_json_path, my_target_dir)

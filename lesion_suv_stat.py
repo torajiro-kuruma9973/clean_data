@@ -308,10 +308,10 @@ def plot_suv_statistics_from_csv(csv_path, output_png_path="suv_distribution.png
 # ===============================
 if __name__ == "__main__":
     # 配置参数
-    ROOT_DIRECTORY = "./PSMA-PET-CT-Lesions"  # 替换为你的真实根目录
+    ROOT_DIRECTORY = "../PSMA-PET-CT-Lesions"  # 替换为你的真实根目录
     OUTPUT_CSV_FILE = "./all_psma_lesion_points.csv"  # 你想要的 CSV 名字和路径
     
-    process_all_studies(ROOT_DIRECTORY, OUTPUT_CSV_FILE)
+    ##process_all_studies(ROOT_DIRECTORY, OUTPUT_CSV_FILE)
 
     OUTPUT_IMAGE = "lesion_points_suv_statistics.png"
     plot_suv_statistics_from_csv(OUTPUT_CSV_FILE, OUTPUT_IMAGE)

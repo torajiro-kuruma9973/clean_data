@@ -35,4 +35,4 @@ def check_nifti_dtype(file_path):
 # 使用示例
 # ===============================
 if __name__ == "__main__":
-    check_nifti_dtype("ct.nii.gz")
+    check_nifti_dtype("0.nii.gz")

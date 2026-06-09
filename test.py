@@ -1,437 +1,294 @@
 #!/usr/bin/env python3
 """
-Traverse a PSMA/NBIA-style root directory, read all CT DICOM slices, convert
-pixels to HU, compute global HU statistics, and save a polished PNG HU
-distribution plot.
+Move ct.nii.gz and pet_resampled.nii.gz by a StudyID naming rule.
 
-The directory classifier treats folders containing "Segmentation" as SEG first,
-so a segmentation folder whose name also contains "ct" is not mistaken for CT.
+Expected PSMA-style source structure:
+  root/
+    PSMA_xxx/
+      StudyID/
+        xxx-CT-xxxxx/
+          ct.nii.gz
+        xxx-PET-xxxxx/
+          pet_resampled.nii.gz
+
+Name-rule JSON format:
+  {
+    "0.nii.gz": "01-01-2002-NA-PETCT whole-body PSMA-21061",
+    "1.nii.gz": "01-01-2003-NA-PETCT whole-body PSMA-65095"
+  }
+
+The JSON key is the new filename. The JSON value is the StudyID.
+
+Dependencies:
+  Python standard library only.
 """
 
 from __future__ import annotations
 
 import argparse
-import math
-import sys
+import json
+import re
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple, Union
 
-import numpy as np
-import pydicom
-
 
 @dataclass
-class HuStats:
-    min_hu: float
-    max_hu: float
-    mean_hu: float
-    median_hu: float
-    voxel_count: int
-    dicom_count: int
-    ct_folder_count: int
-    median_method: str
+class MoveCtPetRecord:
+    study_id: str
+    new_name: Optional[str]
+    status: str
+    ct_source: Optional[Path]
+    pet_source: Optional[Path]
+    ct_target: Optional[Path]
+    pet_target: Optional[Path]
 
 
-def analyze_ct_hu_distribution(
+def move_ct_pet_by_rule(
     root_dir: Union[str, Path],
-    output_png: Union[str, Path],
-    bins: int = 700,
-    verbose: bool = False,
-) -> HuStats:
-    """Compute HU statistics for all CT DICOM files and save a distribution PNG.
+    name_rule_json: Union[str, Path],
+    ct_target_dir: Union[str, Path],
+    pet_target_dir: Union[str, Path],
+    overwrite: bool = False,
+    dry_run: bool = False,
+) -> List[MoveCtPetRecord]:
+    """Move same-study CT and resampled PET NIfTI files by JSON naming rule.
 
     Args:
-        root_dir: Root directory containing PSMA project/study folders.
-        output_png: PNG file path to save the normalized HU distribution plot.
-        bins: Number of histogram bins when plotting non-integer-like HU data.
-        verbose: Print skipped files and progress to stderr.
+        root_dir: PSMA root directory containing project folders and StudyID folders.
+        name_rule_json: JSON mapping new filename -> StudyID.
+        ct_target_dir: Destination directory for ct.nii.gz files.
+        pet_target_dir: Destination directory for pet_resampled.nii.gz files.
+        overwrite: If True, existing destination files may be replaced.
+        dry_run: If True, print planned moves without moving files.
 
     Returns:
-        HuStats with global min, max, mean, median, and counts.
+        A list of records for moved and skipped studies.
     """
     root = Path(root_dir)
     if not root.is_dir():
         raise NotADirectoryError(f"root_dir is not a directory: {root}")
 
-    ct_dirs = list(_find_ct_series_dirs(root))
-    if not ct_dirs:
-        raise RuntimeError(f"No CT series folders found under: {root}")
+    study_to_name = _load_study_to_new_name(name_rule_json)
+    ct_target_root = Path(ct_target_dir)
+    pet_target_root = Path(pet_target_dir)
 
-    ct_files: List[Path] = []
-    for ct_dir in ct_dirs:
-        files = _iter_dicom_files(ct_dir)
-        if files:
-            ct_files.extend(files)
-        else:
-            _log(verbose, f"[skip] no DICOM files in CT folder: {ct_dir}")
+    if not dry_run:
+        ct_target_root.mkdir(parents=True, exist_ok=True)
+        pet_target_root.mkdir(parents=True, exist_ok=True)
 
-    if not ct_files:
-        raise RuntimeError(f"No CT DICOM files found under: {root}")
+    records: List[MoveCtPetRecord] = []
+    study_dirs = list(_find_study_dirs(root))
+    total = len(study_dirs)
+    moved = 0
+    skipped = 0
+    failed = 0
 
-    first = _first_pass_stats(ct_files, verbose=verbose)
-    min_hu, max_hu, total_sum, voxel_count, dicom_count, integer_like = first
+    for index, study_dir in enumerate(study_dirs, start=1):
+        study_id = study_dir.name
+        new_name = study_to_name.get(study_id)
 
-    if voxel_count == 0 or dicom_count == 0:
-        raise RuntimeError("No readable CT pixel data found.")
-
-    mean_hu = total_sum / voxel_count
-
-    if integer_like and _integer_range_is_reasonable(min_hu, max_hu):
-        values, counts = _integer_hu_counts(ct_files, verbose=verbose)
-        median_hu = _median_from_counts(values, counts, voxel_count)
-        hist_x = values.astype(np.float64)
-        hist_y = counts.astype(np.float64)
-        median_method = "exact integer HU count"
-    else:
-        hist_x, hist_y = _histogram_counts(ct_files, min_hu, max_hu, bins=bins, verbose=verbose)
-        median_hu = _median_from_histogram(hist_x, hist_y, voxel_count)
-        median_method = "histogram approximation"
-
-    stats = HuStats(
-        min_hu=float(min_hu),
-        max_hu=float(max_hu),
-        mean_hu=float(mean_hu),
-        median_hu=float(median_hu),
-        voxel_count=int(voxel_count),
-        dicom_count=int(dicom_count),
-        ct_folder_count=len(ct_dirs),
-        median_method=median_method,
-    )
-
-    _plot_hu_histogram(hist_x, hist_y, stats, output_png)
-    return stats
-
-
-def _find_ct_series_dirs(root: Path) -> Iterable[Path]:
-    for directory in root.rglob("*"):
-        if not directory.is_dir():
+        if new_name is None:
+            skipped += 1
+            record = MoveCtPetRecord(study_id, None, "skipped_not_in_json", None, None, None, None)
+            records.append(record)
+            print(f"[{index}/{total}] skipped {study_id}: StudyID not in JSON rule")
             continue
 
-        name = directory.name.lower()
-        if "segmentation" in name:
-            continue
-        if "pet" in name:
-            continue
-        if "ct" not in name:
+        sources = _find_required_sources(study_dir)
+        ct_target = ct_target_root / new_name
+        pet_target = pet_target_root / new_name
+        record = MoveCtPetRecord(
+            study_id=study_id,
+            new_name=new_name,
+            status="pending",
+            ct_source=sources["ct"],
+            pet_source=sources["pet"],
+            ct_target=ct_target,
+            pet_target=pet_target,
+        )
+
+        missing = [key for key, path in sources.items() if path is None]
+        if missing:
+            skipped += 1
+            record.status = "skipped_missing_" + "_".join(missing)
+            records.append(record)
+            print(f"[{index}/{total}] skipped {study_id}: missing {', '.join(missing)}")
             continue
 
-        if _has_direct_dicom_like_files(directory):
+        existing_targets = [str(path) for path in (ct_target, pet_target) if path.exists()]
+        if existing_targets and not overwrite:
+            skipped += 1
+            record.status = "skipped_target_exists"
+            records.append(record)
+            print(
+                f"[{index}/{total}] skipped {study_id}: target exists; "
+                f"use --overwrite to replace: {existing_targets}"
+            )
+            continue
+
+        if dry_run:
+            skipped += 1
+            record.status = "dry_run"
+            records.append(record)
+            print(
+                f"[{index}/{total}] dry-run {study_id}: "
+                f"{sources['ct']} -> {ct_target}; "
+                f"{sources['pet']} -> {pet_target}"
+            )
+            continue
+
+        moved_pairs: List[Tuple[Path, Path]] = []
+        try:
+            if overwrite:
+                for target in (ct_target, pet_target):
+                    if target.exists():
+                        target.unlink()
+
+            _move_one(sources["ct"], ct_target)
+            moved_pairs.append((ct_target, sources["ct"]))
+            _move_one(sources["pet"], pet_target)
+            moved_pairs.append((pet_target, sources["pet"]))
+
+            moved += 1
+            record.status = "moved"
+            records.append(record)
+            print(f"[{index}/{total}] moved {study_id} -> {new_name}")
+        except Exception as exc:
+            failed += 1
+            record.status = f"failed: {exc}"
+            records.append(record)
+            _rollback_moves(moved_pairs)
+            print(f"[{index}/{total}] failed {study_id}: {exc}")
+
+    print(f"Studies checked: {total}; moved: {moved}; skipped: {skipped}; failed: {failed}")
+    return records
+
+
+def _load_study_to_new_name(name_rule_json: Union[str, Path]) -> Dict[str, str]:
+    path = Path(name_rule_json)
+    with path.open("r", encoding="utf-8") as f:
+        name_to_study = json.load(f)
+
+    if not isinstance(name_to_study, dict):
+        raise ValueError("name_rule_json must be an object mapping new filename -> StudyID")
+
+    study_to_name: Dict[str, str] = {}
+    for new_name, study_id in name_to_study.items():
+        if not isinstance(new_name, str) or not isinstance(study_id, str):
+            raise ValueError("all JSON keys and values must be strings")
+        if study_id in study_to_name:
+            raise ValueError(
+                f"duplicate StudyID in JSON rule: {study_id!r} maps to both "
+                f"{study_to_name[study_id]!r} and {new_name!r}"
+            )
+        study_to_name[study_id] = new_name
+    return study_to_name
+
+
+def _find_study_dirs(root: Path) -> Iterable[Path]:
+    """Yield StudyID folders under root/project/study.
+
+    StudyID names often contain "PETCT"; those must not be classified as PET
+    folders. Only direct child folders with standalone CT/PET tokens or
+    "Segmentation" are treated as series folders.
+    """
+    directories = [root]
+    directories.extend(sorted((path for path in root.rglob("*") if path.is_dir()), key=lambda path: str(path)))
+
+    for directory in directories:
+        series_dirs = _study_series_dirs(directory)
+        if "ct" in series_dirs or "pet" in series_dirs:
             yield directory
 
 
-def _has_direct_dicom_like_files(directory: Path) -> bool:
-    for child in directory.iterdir():
-        if child.is_file() and not child.name.startswith("."):
-            suffixes = "".join(child.suffixes).lower()
-            if suffixes in {".dcm", ""} or child.suffix.lower() == ".dcm":
-                return True
-    return False
-
-
-def _iter_dicom_files(directory: Path) -> List[Path]:
-    dcm_files = sorted(p for p in directory.rglob("*.dcm") if p.is_file())
-    if dcm_files:
-        return dcm_files
-
-    return sorted(
-        p
-        for p in directory.rglob("*")
-        if p.is_file()
-        and not p.name.startswith(".")
-        and ".nii" not in "".join(p.suffixes).lower()
-    )
-
-
-def _first_pass_stats(
-    files: List[Path],
-    verbose: bool,
-) -> Tuple[float, float, float, int, int, bool]:
-    min_hu = math.inf
-    max_hu = -math.inf
-    total_sum = 0.0
-    voxel_count = 0
-    dicom_count = 0
-    integer_like = True
-
-    for index, path in enumerate(files, start=1):
-        if verbose and index % 500 == 0:
-            _log(verbose, f"[progress] first pass {index}/{len(files)}")
-
-        hu = _read_ct_hu(path, verbose=verbose)
-        if hu is None:
-            continue
-
-        dicom_count += 1
-        voxel_count += int(hu.size)
-        total_sum += float(np.sum(hu, dtype=np.float64))
-        min_hu = min(min_hu, float(np.min(hu)))
-        max_hu = max(max_hu, float(np.max(hu)))
-
-        if integer_like and not _array_is_integer_like(hu):
-            integer_like = False
-
-    return min_hu, max_hu, total_sum, voxel_count, dicom_count, integer_like
-
-
-def _integer_hu_counts(files: List[Path], verbose: bool) -> Tuple[np.ndarray, np.ndarray]:
-    counts_by_hu: Dict[int, int] = {}
-
-    for index, path in enumerate(files, start=1):
-        if verbose and index % 500 == 0:
-            _log(verbose, f"[progress] integer count pass {index}/{len(files)}")
-
-        hu = _read_ct_hu(path, verbose=verbose)
-        if hu is None:
-            continue
-
-        hu_int = np.rint(hu).astype(np.int32, copy=False)
-        values, counts = np.unique(hu_int, return_counts=True)
-        for value, count in zip(values, counts):
-            counts_by_hu[int(value)] = counts_by_hu.get(int(value), 0) + int(count)
-
-    sorted_values = np.array(sorted(counts_by_hu), dtype=np.int32)
-    sorted_counts = np.array([counts_by_hu[int(value)] for value in sorted_values], dtype=np.int64)
-    return sorted_values, sorted_counts
-
-
-def _histogram_counts(
-    files: List[Path],
-    min_hu: float,
-    max_hu: float,
-    bins: int,
-    verbose: bool,
-) -> Tuple[np.ndarray, np.ndarray]:
-    edges = np.linspace(min_hu, max_hu, bins + 1, dtype=np.float64)
-    counts = np.zeros(bins, dtype=np.int64)
-
-    for index, path in enumerate(files, start=1):
-        if verbose and index % 500 == 0:
-            _log(verbose, f"[progress] histogram pass {index}/{len(files)}")
-
-        hu = _read_ct_hu(path, verbose=verbose)
-        if hu is None:
-            continue
-
-        slice_counts, _ = np.histogram(hu, bins=edges)
-        counts += slice_counts.astype(np.int64, copy=False)
-
-    centers = (edges[:-1] + edges[1:]) / 2.0
-    return centers, counts.astype(np.float64)
-
-
-def _read_ct_hu(path: Path, verbose: bool) -> Optional[np.ndarray]:
+def _study_series_dirs(study_dir: Path) -> Dict[str, Path]:
+    series_dirs: Dict[str, Path] = {}
     try:
-        ds = pydicom.dcmread(path)
-        modality = str(getattr(ds, "Modality", "")).upper()
-        if modality and modality != "CT":
-            _log(verbose, f"[skip] not CT modality ({modality}): {path}")
-            return None
+        children = list(study_dir.iterdir())
+    except OSError:
+        return series_dirs
 
-        pixels = np.asarray(ds.pixel_array, dtype=np.float32)
-        slope = float(getattr(ds, "RescaleSlope", 1.0) or 1.0)
-        intercept = float(getattr(ds, "RescaleIntercept", 0.0) or 0.0)
-        return pixels * slope + intercept
-    except Exception as exc:
-        _log(verbose, f"[skip] unreadable CT DICOM {path}: {exc}")
-        return None
+    for child in children:
+        if not child.is_dir():
+            continue
+        series_type = _classify_series_dir(child)
+        if series_type is not None and series_type not in series_dirs:
+            series_dirs[series_type] = child
+    return series_dirs
 
 
-def _array_is_integer_like(values: np.ndarray, atol: float = 1e-3) -> bool:
-    sample = values
-    if values.size > 200_000:
-        sample = values.reshape(-1)[:: max(1, values.size // 200_000)]
-    return bool(np.all(np.abs(sample - np.rint(sample)) <= atol))
+def _find_required_sources(study_dir: Path) -> Dict[str, Optional[Path]]:
+    series_dirs = _study_series_dirs(study_dir)
+    expected = {
+        "ct": ("ct", "ct.nii.gz"),
+        "pet": ("pet", "pet_resampled.nii.gz"),
+    }
+
+    sources: Dict[str, Optional[Path]] = {}
+    for key, (series_type, filename) in expected.items():
+        series_dir = series_dirs.get(series_type)
+        if series_dir is None:
+            sources[key] = None
+            continue
+        path = series_dir / filename
+        sources[key] = path if path.is_file() else None
+    return sources
 
 
-def _integer_range_is_reasonable(min_hu: float, max_hu: float) -> bool:
-    return (math.ceil(max_hu) - math.floor(min_hu)) <= 100_000
+def _classify_series_dir(path: Path) -> Optional[str]:
+    name = path.name.lower()
+    if "segmentation" in name:
+        return "seg"
+    if _contains_standalone_token(name, "pet"):
+        return "pet"
+    if _contains_standalone_token(name, "ct"):
+        return "ct"
+    return None
 
 
-def _median_from_counts(values: np.ndarray, counts: np.ndarray, total_count: int) -> float:
-    if total_count <= 0:
-        raise ValueError("total_count must be positive")
-
-    cumulative = np.cumsum(counts)
-    left_rank = (total_count - 1) // 2
-    right_rank = total_count // 2
-    left_value = values[int(np.searchsorted(cumulative, left_rank + 1, side="left"))]
-    right_value = values[int(np.searchsorted(cumulative, right_rank + 1, side="left"))]
-    return float(left_value + right_value) / 2.0
+def _contains_standalone_token(name: str, token: str) -> bool:
+    return re.search(rf"(^|[^a-z0-9]){re.escape(token)}([^a-z0-9]|$)", name) is not None
 
 
-def _median_from_histogram(x: np.ndarray, counts: np.ndarray, total_count: int) -> float:
-    cumulative = np.cumsum(counts)
-    target = total_count / 2.0
-    index = int(np.searchsorted(cumulative, target, side="left"))
-    index = min(max(index, 0), len(x) - 1)
-    return float(x[index])
+def _move_one(source: Optional[Path], target: Path) -> None:
+    if source is None:
+        raise ValueError(f"missing source for target {target}")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.move(str(source), str(target))
 
 
-def _plot_hu_histogram(
-    x: np.ndarray,
-    counts: np.ndarray,
-    stats: HuStats,
-    output_png: Union[str, Path],
-) -> None:
-    import matplotlib
-
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-    from matplotlib.ticker import FuncFormatter
-
-    output_path = Path(output_png)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    nonzero = counts > 0
-    plot_x = x[nonzero]
-    plot_counts = counts[nonzero]
-    if plot_x.size == 0:
-        raise RuntimeError("Histogram is empty; cannot plot.")
-
-    p_low = _percentile_from_counts(plot_x, plot_counts, 0.5)
-    p_high = _percentile_from_counts(plot_x, plot_counts, 99.5)
-    if p_high <= p_low:
-        p_low, p_high = stats.min_hu, stats.max_hu
-
-    plot_percent = plot_counts / float(stats.voxel_count) * 100.0
-
-    fig, ax = plt.subplots(figsize=(13.5, 7.8), dpi=180)
-    fig.patch.set_facecolor("#F7F4EE")
-    ax.set_facecolor("#FBFAF6")
-
-    width = _bar_width(plot_x)
-    ax.bar(
-        plot_x,
-        plot_percent,
-        width=width,
-        color="#1F6F8B",
-        alpha=0.82,
-        edgecolor="#0D3B4C",
-        linewidth=0.15,
-    )
-
-    ax.axvline(stats.mean_hu, color="#C98A2E", linewidth=2.2, label=f"Mean {stats.mean_hu:,.1f}")
-    ax.axvline(stats.median_hu, color="#A94B4B", linewidth=2.2, linestyle="--", label=f"Median {stats.median_hu:,.1f}")
-
-    ax.set_yscale("log")
-    ax.set_xlim(p_low, p_high)
-    ax.grid(True, axis="y", color="#DDD4C7", linewidth=0.8, alpha=0.75)
-    ax.grid(False, axis="x")
-
-    for spine in ("top", "right"):
-        ax.spines[spine].set_visible(False)
-    ax.spines["left"].set_color("#B8AD9E")
-    ax.spines["bottom"].set_color("#B8AD9E")
-
-    ax.set_title("Global CT HU Distribution", loc="left", fontsize=22, fontweight="bold", color="#18212B", pad=18)
-    ax.text(
-        0.0,
-        1.015,
-        "Bars show the percentage distribution of all CT voxels by HU; display range is clipped to P0.5-P99.5 for readability.",
-        transform=ax.transAxes,
-        fontsize=10.5,
-        color="#4C5A66",
-    )
-    ax.set_xlabel("HU value", fontsize=12, color="#18212B", labelpad=10)
-    ax.set_ylabel("Voxel proportion (%)", fontsize=12, color="#18212B", labelpad=10)
-    ax.xaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:,.0f}"))
-    ax.yaxis.set_major_formatter(FuncFormatter(_format_percent_tick))
-    ax.tick_params(axis="both", labelsize=10, colors="#36424C")
-
-    stats_text = (
-        f"Min HU       {stats.min_hu:,.1f}\n"
-        f"Max HU       {stats.max_hu:,.1f}\n"
-        f"Median HU    {stats.median_hu:,.1f}\n"
-        f"Mean HU      {stats.mean_hu:,.1f}\n"
-        f"Voxels       {stats.voxel_count:,}\n"
-        f"CT DICOMs    {stats.dicom_count:,}\n"
-        f"CT folders   {stats.ct_folder_count:,}\n"
-        f"Median       {stats.median_method}"
-    )
-    ax.text(
-        0.985,
-        0.965,
-        stats_text,
-        transform=ax.transAxes,
-        ha="right",
-        va="top",
-        fontsize=10.5,
-        color="#18212B",
-        linespacing=1.45,
-        bbox={
-            "boxstyle": "round,pad=0.55,rounding_size=0.12",
-            "facecolor": "#FFFFFF",
-            "edgecolor": "#D3C8B8",
-            "linewidth": 1.0,
-            "alpha": 0.94,
-        },
-    )
-
-    ax.legend(loc="upper left", bbox_to_anchor=(0.0, 0.935), frameon=False, fontsize=10.5)
-    fig.tight_layout(pad=2.0)
-    fig.savefig(output_path, bbox_inches="tight")
-    plt.close(fig)
-
-
-def _percentile_from_counts(x: np.ndarray, counts: np.ndarray, percentile: float) -> float:
-    cumulative = np.cumsum(counts)
-    target = cumulative[-1] * percentile / 100.0
-    index = int(np.searchsorted(cumulative, target, side="left"))
-    index = min(max(index, 0), len(x) - 1)
-    return float(x[index])
-
-
-def _format_percent_tick(value: float, _: object) -> str:
-    if value >= 10:
-        return f"{value:,.0f}%"
-    if value >= 1:
-        return f"{value:,.1f}%"
-    if value >= 0.01:
-        return f"{value:,.2f}%"
-    return f"{value:,.3g}%"
-
-
-def _bar_width(x: np.ndarray) -> float:
-    if x.size < 2:
-        return 1.0
-    diffs = np.diff(np.sort(x))
-    diffs = diffs[diffs > 0]
-    if diffs.size == 0:
-        return 1.0
-    return float(np.median(diffs))
-
-
-def _log(enabled: bool, message: str) -> None:
-    if enabled:
-        print(message, file=sys.stderr)
+def _rollback_moves(moved_pairs: List[Tuple[Path, Path]]) -> None:
+    for current_path, original_path in reversed(moved_pairs):
+        try:
+            if current_path.exists() and not original_path.exists():
+                original_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.move(str(current_path), str(original_path))
+        except Exception:
+            pass
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Compute global CT HU statistics and save a normalized PNG distribution plot."
+        description="Move ct.nii.gz and pet_resampled.nii.gz files by JSON naming rule."
     )
-    parser.add_argument("root_dir", help="Root directory containing PSMA project folders.")
-    parser.add_argument("output_png", help="Where to save the HU histogram PNG.")
-    parser.add_argument("--bins", type=int, default=700, help="Histogram bins for non-integer HU data.")
-    parser.add_argument("--verbose", action="store_true", help="Print progress and skipped files.")
+    parser.add_argument("root_dir", help="PSMA root directory")
+    parser.add_argument("name_rule_json", help="JSON mapping new filename -> StudyID")
+    parser.add_argument("ct_target_dir", help="Destination directory for CT files")
+    parser.add_argument("pet_target_dir", help="Destination directory for PET files")
+    parser.add_argument("--overwrite", action="store_true", help="Replace existing destination files")
+    parser.add_argument("--dry-run", action="store_true", help="Print planned moves without moving files")
     args = parser.parse_args()
 
-    stats = analyze_ct_hu_distribution(
+    move_ct_pet_by_rule(
         args.root_dir,
-        args.output_png,
-        bins=args.bins,
-        verbose=args.verbose,
+        args.name_rule_json,
+        args.ct_target_dir,
+        args.pet_target_dir,
+        overwrite=args.overwrite,
+        dry_run=args.dry_run,
     )
-
-    print(f"CT folders: {stats.ct_folder_count:,}")
-    print(f"CT DICOMs:  {stats.dicom_count:,}")
-    print(f"Voxels:     {stats.voxel_count:,}")
-    print(f"Min HU:     {stats.min_hu:,.3f}")
-    print(f"Max HU:     {stats.max_hu:,.3f}")
-    print(f"Median HU:  {stats.median_hu:,.3f} ({stats.median_method})")
-    print(f"Mean HU:    {stats.mean_hu:,.3f}")
-    print(f"Saved PNG:  {Path(args.output_png)}")
 
 
 if __name__ == "__main__":

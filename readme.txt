@@ -19,14 +19,20 @@
 
 Checked studies: 537; passed: 531; failed: 6
 
-
 4. 开始进行pet，seg到ct的重采样
 ctpet一体机只能保证两者的配准。即ct空间中某个物理坐标[x,y,z]和pet空间中同样数值的物理坐标[x,y,z]，确实是对应着病人的同一个部位。但因为分辨率等问题，还是需要对pet进行插值以得到和ct相同的shape。seg也是同理。重采样后，seg和pet的shape都和ct一样了。seg不全的z坐标对应的帧会被画成全黑（都是背景）。
 
 5. ct截断以及归一化
 窗口值需要观察之前对全局hu和病灶hu的值的统计数据。这个版本暂时放到[-1000, 2000]。ct_clip_norm.py做了截断和归一化。
+命令行：python .\ct_clip_norm.py ../PSMA-PET-CT-Lesions --clip-window -1000 2000 --overwrite
 
 6. pet截断以及归一化
 截断值需要观察之前对全局suv和病灶suv做的统计数据。这里放在50. 用pet_clip_norm.py来完成。
 
-7.对nii数据进行augmentation，只做左右和上下的反转。data_aug.py
+7.挪动所有nii去final data的对应的子文件夹里。move_rename_nii.py
+命令行：python .\pet_clip_norm.py ../PSMA-PET-CT-Lesions --clip-window 0 50 --scale-mode gamma --overwrite
+
+移动硬盘上的数据到这一步为止。本地硬盘接着往下走了。
+
+8.对nii数据进行augmentation，只做左右和上下的反转。data_aug.py 这一步要求7必须完成，因为这一步是对已经归类好的3个最终nii文件夹做处理。
+

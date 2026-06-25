@@ -36,3 +36,28 @@ ctpet一体机只能保证两者的配准。即ct空间中某个物理坐标[x,y
 
 8.对nii数据进行augmentation，只做左右和上下的反转。data_aug.py 这一步要求7必须完成，因为这一步是对已经归类好的3个最终nii文件夹做处理。
 
+--- 以下都是基于final data数据做的（即数据都重采样，归一化完毕了） ---
+1. 新增：考虑掩码数量太少，使得被机器学习到的slice也非常少，决定对seg（这时候已经完成ct重采样了）进行加强。把原本是空的seg slice，找到对应的pet（这时候pet已经重采样，归一化了）上4个最大值的坐标，在seg文件上标2.完成的文件都放在resampled_enhanced_segs，resampled_enhanced_test_segs文件夹里面。
+enhanced_seg.py
+
+2. 把2都换成1
+seg2to1.py
+
+3. 重新获得加强版掩码idx索引
+get_enhanced_foreground_info.py （注意，因为之前的训练数据和test数据分开了，所以得到两个前景点json。需要用merge_train_test_foreground_info.py来合并成新的）
+新的前景点json：all_enhanced_foreground_idx_info.json
+
+4. 对数据进行interval划分。8张为一个interval。把划分的信息记录在enhanced_orinal_intv_info.json （也包括test的数据）
+gen_intvs_partition_info.py
+
+5. 进行实例划分：把完整的nii文件划分成以interval为单位的nii文件。
+gen_nii_partitions.py
+
+6. 乱序缝合
+stitch_intvs.py
+
+
+
+
+
+

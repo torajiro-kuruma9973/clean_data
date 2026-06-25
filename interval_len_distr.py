@@ -51,4 +51,4 @@ def analyze_sample_distribution(json_file, n, output_png):
 # ==========================================
 if __name__ == "__main__":
     
-    analyze_sample_distribution("foreground_points_frame_idx_dict.json", n=10000, output_png="itv_dist.png")
+    analyze_sample_distribution("enhanced_foreground_idx_info.json", n=10000, output_png="enhanced_itv_dist.png")

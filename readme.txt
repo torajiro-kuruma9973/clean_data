@@ -53,7 +53,7 @@ gen_intvs_partition_info.py
 5. 进行实例划分：把完整的nii文件划分成以interval为单位的nii文件。
 gen_nii_partitions.py
 
-6. 乱序缝合
+6. 乱序缝合, 生成的文件依次放入带有baches关键字的文件夹。这里只包括了training data，因为test data不用乱序。test data的intervals划分就按照all_enhanced_foreground_idx_info.json即可。
 stitch_intvs.py
 
 

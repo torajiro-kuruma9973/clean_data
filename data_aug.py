@@ -54,9 +54,9 @@ def augment_nii_flips(
     data_dir: Union[str, Path],
     label_dir: Union[str, Path],
     seg_dir: Union[str, Path],
-    left_right_offset: int = 1000,
-    up_down_offset: int = 3000,
-    original_max_index: int = 1000,
+    left_right_offset: int = 20000,
+    up_down_offset: int = 30000,
+    original_max_index: int = 5000,
     left_right_axis: int = 1,
     up_down_axis: int = 0,
     overwrite: bool = False,
@@ -253,12 +253,12 @@ def main() -> None:
     parser.add_argument("data_dir", help="CT NIfTI folder")
     parser.add_argument("label_dir", help="PET NIfTI folder")
     parser.add_argument("seg_dir", help="SEG NIfTI folder")
-    parser.add_argument("--left-right-offset", type=int, default=1000, help="LR filename offset (default: 1000)")
-    parser.add_argument("--up-down-offset", type=int, default=3000, help="UD filename offset (default: 3000)")
+    parser.add_argument("--left-right-offset", type=int, default=20000, help="LR filename offset (default: 1000)")
+    parser.add_argument("--up-down-offset", type=int, default=30000, help="UD filename offset (default: 3000)")
     parser.add_argument(
         "--original-max-index",
         type=int,
-        default=1000,
+        default=5000,
         help="Only n < this value is treated as original data (default: 1000)",
     )
     parser.add_argument("--left-right-axis", type=int, default=1, help="LR flip axis for (H,W,Z), default: 1")

@@ -50,11 +50,18 @@ get_enhanced_foreground_info.py （注意，因为之前的训练数据和test�
 4. 对数据进行interval划分。8张为一个interval。把划分的信息记录在enhanced_orinal_intv_info.json （也包括test的数据）
 gen_intvs_partition_info.py
 
-5. 进行实例划分：把完整的nii文件划分成以interval为单位的nii文件。
+5. 进行实例划分：把完整的nii文件划分成以interval为单位的nii文件。参数之一是enhanced_orinal_intv_info.json。
 gen_nii_partitions.py
 
-6. 乱序缝合, 生成的文件依次放入带有baches关键字的文件夹。这里只包括了training data，因为test data不用乱序。test data的intervals划分就按照all_enhanced_foreground_idx_info.json即可。
-stitch_intvs.py
+6. 乱序缝合, 生成的文件依次放入带有baches关键字的文件夹。这里只包括了training data，因为test data不用乱序。test data的intervals划分就按照enhanced_orinal_intv_info.json即可。
+stitch_intvs.py，产生文件new_version_starters_ends_info.json 
+7. data aug
+a. data_rotate.py 生成旋转图像
+b. data_aug.py 生成上下镜像和左右镜像
+
+8. 产生aug后的itvs划分信息，参数是new_version_starters_ends_info.json
+gen_aug_itvs_partition_info.py 产生 aug_new_version_starters_ends_info.json （最终被训练代码使用）
+
 
 
 

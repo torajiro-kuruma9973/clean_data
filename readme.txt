@@ -62,6 +62,31 @@ b. data_aug.py 生成上下镜像和左右镜像
 8. 产生aug后的itvs划分信息，参数是new_version_starters_ends_info.json
 gen_aug_itvs_partition_info.py 产生 aug_new_version_starters_ends_info.json （最终被训练代码使用）
 
+--- 以下是处理模型产生的结果的代码 ---
+1. 先把之前预留的test data给做interval分割（只分割labels）。
+ 对suv的labels做分割：python .\gen_test_data_partition.py ..\suv_clipped_no_normed_test_data ./enhanced_orinal_intv_info.json ../test_data_intervals
+对normed的labels做分割：python .\gen_test_data_partition.py ..\final_test_data\test_labels\ ./enhanced_orinal_intv_info.json ../test_data_normed_intervals
+
+2. 把模型产生的pth文件转换成2种nii文件，一种是normed（且gamma缩放了），也就是原数据，另一种是转换成suv后的。之前版本模型给的是8x1x1024x1024，现在在模型端做了下采样，得到的结果是8x1x512x512。
+pred_pth2nii.py
+samsyn_test_predict_results文件夹是放模型predict的结果的（都是intervals的pth）
+pth2normed_nii_results文件夹是放转换成normed nii的
+pth2suv_nii_results文件夹是放转换成suv nii的。
+
+3. 计算rmse和ssim
+pred_rmse_ssim.py
+
+4. 因为interval在ITK-SNAP上看起来总有点怪怪的，所以最好的办法是把它们缝合起来。这里要注意的是，有的interval 0的第一帧起始对应着原文件的第二帧，需要对照json文件（enhanced_orinal_intv_info.json）用全0帧补齐第一帧。
+combine_pred_intervals.py
+缝合后的文件放在了combined_nii里面。
+
+5. 缝合后发现有的文件最后几帧也还是缺少，那么再补充尾部的全0帧。并不是说原文件的最后几针也是全0的，但是目前看来，都是一些噪点（低像素值），而没有实质性的像素。反正计算ssim和rmse已经在interval阶段就处理过了。这里的缝合单纯是为了方便观察，看图。
+implement_0_frames_in_test_pred_combined_nii.py
+这样，完整的缝合后的nii文件就放在combnined_nii_with_complement_with_0_frames文件夹里面
+
+6. 现在需要把源文件的头数据写入，这就是为什么我们需要确保pred的文件shape和源文件一致。
+write_header_info_to_pred_nii.py
+对比之后发现效果非常棒~
 
 
 
